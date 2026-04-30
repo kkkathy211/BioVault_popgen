@@ -1,0 +1,59 @@
+2026-04-13 15:24:12,824  INFO  Loading island files …
+2026-04-13 15:24:13,304  INFO    BVI: 1,047,476 SNPs loaded from allele_freq_BVI.tsv
+2026-04-13 15:24:13,308  INFO      3,214 SNPs with allele_number=0 → set to NaN
+2026-04-13 15:24:13,832  INFO    TT: 1,047,476 SNPs loaded from allele_freq_TT.tsv
+2026-04-13 15:24:13,833  INFO      3,216 SNPs with allele_number=0 → set to NaN
+2026-04-13 15:24:14,367  INFO    Bahamas: 1,047,476 SNPs loaded from allele_freq_bahamas.tsv
+2026-04-13 15:24:14,368  INFO      2,583 SNPs with allele_number=0 → set to NaN
+2026-04-13 15:24:14,907  INFO    Barbados: 1,047,477 SNPs loaded from allele_freq_barbados.tsv
+2026-04-13 15:24:14,908  INFO      2,580 SNPs with allele_number=0 → set to NaN
+2026-04-13 15:24:15,447  INFO    Bermuda: 1,047,477 SNPs loaded from allele_freq_bermuda.tsv
+2026-04-13 15:24:15,449  INFO      2,219 SNPs with allele_number=0 → set to NaN
+2026-04-13 15:24:16,118  INFO    StLucia: 1,047,476 SNPs loaded from allele_freq_stlucia.tsv
+2026-04-13 15:24:16,119  INFO      2,580 SNPs with allele_number=0 → set to NaN
+2026-04-13 15:24:16,164  INFO  Merging on rsid (inner join) …
+2026-04-13 15:24:50,656  INFO  SNPs after dropping any-population-missing: 73,504,144  (removed 366,900)
+2026-04-13 15:28:16,102  INFO  Saved allele freq matrix   → /Users/spectremac/Desktop/out_copy/fst_pipeline/data/merged/merged_allele_freq.tsv  (73504144, 6)
+2026-04-13 15:28:16,103  INFO  Saved allele number matrix → /Users/spectremac/Desktop/out_copy/fst_pipeline/data/merged/merged_allele_number.tsv  (73504144, 6)
+2026-04-13 15:28:17,364  INFO  Saved summary → /Users/spectremac/Desktop/out_copy/fst_pipeline/data/merged/snp_overlap_summary.txt
+2026-04-13 15:28:17,365  INFO  Populations  : ['BVI', 'TT', 'Bahamas', 'Barbados', 'Bermuda', 'StLucia']
+2026-04-13 15:28:17,365  INFO  Overlapping SNPs (all pops non-missing): 73,504,144
+2026-04-13 15:28:17,365  INFO  
+2026-04-13 15:28:17,365  INFO  Per-population sample sizes (allele_number, max observed):
+2026-04-13 15:28:17,365  INFO    BVI         : max_n = 212
+2026-04-13 15:28:17,365  INFO    TT          : max_n = 152
+2026-04-13 15:28:17,365  INFO    Bahamas     : max_n = 336
+2026-04-13 15:28:17,365  INFO    Barbados    : max_n = 250
+2026-04-13 15:28:17,365  INFO    Bermuda     : max_n = 976
+2026-04-13 15:28:17,365  INFO    StLucia     : max_n = 194
+2026-04-13 15:28:17,365  INFO  Step 1 complete.
+2026-04-13 15:45:41,609  INFO  Loading island files …
+2026-04-13 15:45:42,263  INFO    BVI: 1,047,476 SNPs  |  unique locus_key: 1,047,476  |  unique rsid: 678,344
+2026-04-13 15:45:42,265  INFO      3,214 rows with allele_number=0 → NaN
+2026-04-13 15:45:43,130  INFO    TT: 1,047,476 SNPs  |  unique locus_key: 1,047,476  |  unique rsid: 678,344
+2026-04-13 15:45:43,135  INFO      3,216 rows with allele_number=0 → NaN
+2026-04-13 15:45:43,946  INFO    Bahamas: 1,047,476 SNPs  |  unique locus_key: 1,047,476  |  unique rsid: 678,344
+2026-04-13 15:45:43,948  INFO      2,583 rows with allele_number=0 → NaN
+2026-04-13 15:45:44,654  INFO    Barbados: 1,047,477 SNPs  |  unique locus_key: 1,047,477  |  unique rsid: 678,345
+2026-04-13 15:45:44,656  INFO      2,580 rows with allele_number=0 → NaN
+2026-04-13 15:45:45,434  INFO    Bermuda: 1,047,477 SNPs  |  unique locus_key: 1,047,477  |  unique rsid: 678,345
+2026-04-13 15:45:45,435  INFO      2,219 rows with allele_number=0 → NaN
+2026-04-13 15:45:46,145  INFO    StLucia: 1,047,476 SNPs  |  unique locus_key: 1,047,476  |  unique rsid: 678,344
+2026-04-13 15:45:46,146  INFO      2,580 rows with allele_number=0 → NaN
+2026-04-13 15:45:46,195  INFO  Merging on locus_key (inner join) …
+2026-04-13 15:45:47,944  INFO  SNPs after dropping any-population missing: 1,044,254  (removed 3,222)
+2026-04-13 15:45:53,181  INFO  Saved freq matrix (annotated) → merged_allele_freq_annotated.tsv  (1044254, 7)
+2026-04-13 15:45:53,184  INFO  Saved freq matrix             → merged_allele_freq.tsv             (1044254, 6)
+2026-04-13 15:45:53,184  INFO  Saved allele-number matrix    → merged_allele_number.tsv           (1044254, 6)
+2026-04-13 15:45:53,189  INFO  Merge key      : locus_key (chr-pos-ref-alt)
+2026-04-13 15:45:53,189  INFO  Populations    : ['BVI', 'TT', 'Bahamas', 'Barbados', 'Bermuda', 'StLucia']
+2026-04-13 15:45:53,190  INFO  Overlapping SNPs (all populations non-missing): 1,044,254
+2026-04-13 15:45:53,190  INFO  
+2026-04-13 15:45:53,190  INFO  Per-population max allele_number (≈ 2 × max individuals genotyped):
+2026-04-13 15:45:53,190  INFO    BVI         : 212
+2026-04-13 15:45:53,190  INFO    TT          : 152
+2026-04-13 15:45:53,190  INFO    Bahamas     : 336
+2026-04-13 15:45:53,190  INFO    Barbados    : 250
+2026-04-13 15:45:53,190  INFO    Bermuda     : 976
+2026-04-13 15:45:53,190  INFO    StLucia     : 194
+2026-04-13 15:45:53,190  INFO  Step 1 complete.

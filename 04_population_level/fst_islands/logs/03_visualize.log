@@ -1,0 +1,26 @@
+2026-04-13 15:46:14,746  INFO  Loading FST matrix …
+2026-04-13 15:46:14,748  INFO    Populations: ['BVI', 'TT', 'Bahamas', 'Barbados', 'Bermuda', 'StLucia']
+2026-04-13 15:46:14,952  INFO  Saved FST heatmap → /Users/spectremac/Desktop/out_copy/fst_pipeline/plots/fst_heatmap.png
+2026-04-13 15:46:15,043  INFO  Saved dendrogram → /Users/spectremac/Desktop/out_copy/fst_pipeline/plots/fst_dendrogram.png
+2026-04-13 15:46:15,170  INFO  Saved clustermap → /Users/spectremac/Desktop/out_copy/fst_pipeline/plots/fst_heatmap_clustermap.png
+2026-04-13 15:46:15,170  INFO  Running population-level PCA on allele frequencies …
+2026-04-13 15:46:16,211  INFO  Saved population PCA → /Users/spectremac/Desktop/out_copy/fst_pipeline/plots/pca_populations.png
+2026-04-13 15:46:16,211  INFO    PC1: 67.31% variance explained
+2026-04-13 15:46:16,211  INFO    PC2: 11.79% variance explained
+2026-04-13 15:46:16,211  INFO    PC3: 8.58% variance explained
+2026-04-13 15:46:16,211  INFO    PC4: 6.79% variance explained
+2026-04-13 15:46:16,211  INFO    PC5: 5.53% variance explained
+2026-04-13 15:46:16,221  INFO  Step 3 complete.  All plots saved to plots/
+2026-04-13 15:49:47,792  INFO  Loading FST matrix …
+2026-04-13 15:49:47,796  INFO    Populations: ['BVI', 'TT', 'Bahamas', 'Barbados', 'Bermuda', 'StLucia']
+2026-04-13 15:49:48,073  INFO  Saved FST heatmap → /Users/spectremac/Desktop/out_copy/fst_pipeline/plots/fst_heatmap.png
+2026-04-13 15:49:48,143  INFO  Saved dendrogram → /Users/spectremac/Desktop/out_copy/fst_pipeline/plots/fst_dendrogram.png
+2026-04-13 15:49:48,282  INFO  Saved clustermap → /Users/spectremac/Desktop/out_copy/fst_pipeline/plots/fst_heatmap_clustermap.png
+2026-04-13 15:49:48,283  INFO  Running population-level PCA on allele frequencies …
+2026-04-13 15:49:49,385  INFO  Saved population PCA → /Users/spectremac/Desktop/out_copy/fst_pipeline/plots/pca_populations.png
+2026-04-13 15:49:49,386  INFO    PC1: 67.31% variance explained
+2026-04-13 15:49:49,386  INFO    PC2: 11.79% variance explained
+2026-04-13 15:49:49,386  INFO    PC3: 8.58% variance explained
+2026-04-13 15:49:49,386  INFO    PC4: 6.79% variance explained
+2026-04-13 15:49:49,386  INFO    PC5: 5.53% variance explained
+2026-04-13 15:49:49,395  INFO  Step 3 complete.  All plots saved to plots/

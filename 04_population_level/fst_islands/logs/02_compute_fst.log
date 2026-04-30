@@ -1,0 +1,61 @@
+2026-04-13 15:28:18,690  INFO  Loading merged matrices …
+2026-04-13 15:28:50,861  INFO    6 populations × 73,504,144 SNPs
+2026-04-13 15:28:53,273  INFO  Computing 15 pairwise FST values …
+2026-04-13 15:29:02,706  INFO    FST(BVI vs TT) = 1.024156
+2026-04-13 15:29:09,413  INFO    FST(BVI vs Bahamas) = 1.051319
+2026-04-13 15:29:15,296  INFO    FST(BVI vs Barbados) = 1.005930
+2026-04-13 15:29:21,743  INFO    FST(BVI vs Bermuda) = 3.230663
+2026-04-13 15:29:28,447  INFO    FST(BVI vs StLucia) = 1.001541
+2026-04-13 15:29:34,679  INFO    FST(TT vs Bahamas) = 1.182936
+2026-04-13 15:29:40,390  INFO    FST(TT vs Barbados) = 1.061858
+2026-04-13 15:29:47,107  INFO    FST(TT vs Bermuda) = -7.022050
+2026-04-13 15:29:55,572  INFO    FST(TT vs StLucia) = 1.012739
+2026-04-13 15:30:02,946  INFO    FST(Bahamas vs Barbados) = 1.018981
+2026-04-13 15:30:09,829  INFO    FST(Bahamas vs Bermuda) = 1.434952
+2026-04-13 15:30:16,689  INFO    FST(Bahamas vs StLucia) = 1.075988
+2026-04-13 15:30:23,675  INFO    FST(Barbados vs Bermuda) = 2.129895
+2026-04-13 15:30:31,690  INFO    FST(Barbados vs StLucia) = 1.013631
+2026-04-13 15:30:39,436  INFO    FST(Bermuda vs StLucia) = 4.856356
+2026-04-13 15:30:39,443  INFO  
+Pairwise FST matrix saved → /Users/spectremac/Desktop/out_copy/fst_pipeline/data/fst/fst_matrix.tsv
+2026-04-13 15:30:39,447  INFO  
+              BVI       TT  Bahamas  Barbados  Bermuda  StLucia
+BVI       0.00000  1.02416  1.05132   1.00593  3.23066  1.00154
+TT        1.02416  0.00000  1.18294   1.06186 -7.02205  1.01274
+Bahamas   1.05132  1.18294  0.00000   1.01898  1.43495  1.07599
+Barbados  1.00593  1.06186  1.01898   0.00000  2.12989  1.01363
+Bermuda   3.23066 -7.02205  1.43495   2.12989  0.00000  4.85636
+StLucia   1.00154  1.01274  1.07599   1.01363  4.85636  0.00000
+2026-04-13 15:30:39,447  INFO  
+Step 2 complete.
+2026-04-13 15:45:53,951  INFO  Loading merged matrices …
+2026-04-13 15:46:07,311  INFO  Loading merged matrices …
+2026-04-13 15:46:08,218  INFO    6 populations × 1,044,254 SNPs
+2026-04-13 15:46:08,234  INFO  Computing 15 pairwise FST values …
+2026-04-13 15:46:08,290  INFO    FST(BVI vs TT) = 0.025375
+2026-04-13 15:46:08,340  INFO    FST(BVI vs Bahamas) = 0.002658
+2026-04-13 15:46:08,384  INFO    FST(BVI vs Barbados) = 0.002864
+2026-04-13 15:46:08,431  INFO    FST(BVI vs Bermuda) = 0.018188
+2026-04-13 15:46:08,473  INFO    FST(BVI vs StLucia) = 0.003546
+2026-04-13 15:46:08,518  INFO    FST(TT vs Bahamas) = 0.028184
+2026-04-13 15:46:08,562  INFO    FST(TT vs Barbados) = 0.022154
+2026-04-13 15:46:08,603  INFO    FST(TT vs Bermuda) = 0.006988
+2026-04-13 15:46:08,647  INFO    FST(TT vs StLucia) = 0.024277
+2026-04-13 15:46:08,690  INFO    FST(Bahamas vs Barbados) = 0.002497
+2026-04-13 15:46:08,734  INFO    FST(Bahamas vs Bermuda) = 0.019654
+2026-04-13 15:46:08,773  INFO    FST(Bahamas vs StLucia) = 0.003035
+2026-04-13 15:46:08,815  INFO    FST(Barbados vs Bermuda) = 0.014257
+2026-04-13 15:46:08,854  INFO    FST(Barbados vs StLucia) = 0.002551
+2026-04-13 15:46:08,896  INFO    FST(Bermuda vs StLucia) = 0.016381
+2026-04-13 15:46:08,899  INFO  
+Pairwise FST matrix saved → /Users/spectremac/Desktop/out_copy/fst_pipeline/data/fst/fst_matrix.tsv
+2026-04-13 15:46:08,901  INFO  
+              BVI       TT  Bahamas  Barbados  Bermuda  StLucia
+BVI       0.00000  0.02537  0.00266   0.00286  0.01819  0.00355
+TT        0.02537  0.00000  0.02818   0.02215  0.00699  0.02428
+Bahamas   0.00266  0.02818  0.00000   0.00250  0.01965  0.00304
+Barbados  0.00286  0.02215  0.00250   0.00000  0.01426  0.00255
+Bermuda   0.01819  0.00699  0.01965   0.01426  0.00000  0.01638
+StLucia   0.00355  0.02428  0.00304   0.00255  0.01638  0.00000
+2026-04-13 15:46:08,901  INFO  
+Step 2 complete.
