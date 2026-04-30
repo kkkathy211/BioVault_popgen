@@ -1,0 +1,19 @@
+2026-04-13 14:34:21,243  INFO  Loading numeric genotype matrix …
+2026-04-13 14:34:21,547  INFO    Loaded: 686148 SNPs × 10 samples
+2026-04-13 14:34:21,547  INFO  Applying QC filters …
+2026-04-13 14:34:21,561  INFO    Before call rate filter: (686148, 10)
+2026-04-13 14:34:21,578  INFO    After  call rate filter: (418797, 10)
+2026-04-13 14:34:21,593  INFO    SNPs after MAF>0.01: 417774 / 418797
+2026-04-13 14:34:52,323  INFO    SNPs after HWE p>0.0001: 417774 / 417774
+2026-04-13 14:34:52,325  INFO    LD pruning (r^2 threshold=0.2) …
+2026-04-13 14:35:23,304  INFO    After LD pruning: 76458 SNPs retained from 417774
+2026-04-13 14:35:23,308  INFO  Imputing residual missing values …
+2026-04-13 14:35:23,315  INFO  Running PCA (n_components=20) …
+2026-04-13 14:35:23,403  INFO  Saved eigenvectors → /Users/spectremac/Desktop/out_copy/pipeline/data/pca/pca.eigenvec
+2026-04-13 14:35:23,403  INFO  Saved eigenvalues → /Users/spectremac/Desktop/out_copy/pipeline/data/pca/pca.eigenval
+2026-04-13 14:35:23,403  INFO    PC1: 11.21% variance explained
+2026-04-13 14:35:23,403  INFO    PC2: 11.19% variance explained
+2026-04-13 14:35:23,403  INFO    PC3: 11.17% variance explained
+2026-04-13 14:35:23,403  INFO    PC4: 11.13% variance explained
+2026-04-13 14:35:23,403  INFO    PC5: 11.12% variance explained
+2026-04-13 14:35:23,403  INFO  Step 3b complete. Run: python scripts/04_plot_pca.py

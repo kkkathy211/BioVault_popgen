@@ -1,0 +1,10 @@
+2026-04-13 14:35:51,367  INFO  Loading eigenvectors …
+2026-04-13 14:35:51,372  INFO    10 samples, 9 PCs
+2026-04-13 14:35:51,373  INFO    PC1: 11.2%  PC2: 11.2%
+2026-04-13 14:36:22,662  INFO  Loading eigenvectors …
+2026-04-13 14:36:22,664  INFO    10 samples, 9 PCs
+2026-04-13 14:36:22,665  INFO    PC1: 11.2%  PC2: 11.2%
+2026-04-13 14:36:22,669  INFO    Loaded metadata; colouring by 'population'
+2026-04-13 14:36:22,972  INFO  Saved plot → /Users/spectremac/Desktop/out_copy/pipeline/plots/pca_pc1_pc2.png
+2026-04-13 14:36:23,047  INFO  Saved plot → /Users/spectremac/Desktop/out_copy/pipeline/plots/pca_pc3_pc4.png
+2026-04-13 14:36:23,047  INFO  Step 4 complete.
