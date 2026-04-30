@@ -74,4 +74,4 @@ logs/
 
 ## Methods note
 
-A detailed walkthrough of how the AIMs and differential SNPs feed into Figure 2B (the multi-panel ancestry figure) is in [`../../docs/methods_figure2B.md`](../../docs/methods_figure2B.md).
+A detailed walkthrough of how the AIMs and differential SNPs feed into Figure 2B (the multi-panel ancestry figure) is in the google slides I shared previously, in the speaker mode, I wrote my script.
