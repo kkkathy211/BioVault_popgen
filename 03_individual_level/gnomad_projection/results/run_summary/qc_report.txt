@@ -1,0 +1,6 @@
+=== QC Report ===
+Input SNPs:   396070
+Input samples:       10
+Final SNPs:   395101
+Final samples:       10
+geno=0.05, mind=0.1, maf=0.01, hwe=1e-4

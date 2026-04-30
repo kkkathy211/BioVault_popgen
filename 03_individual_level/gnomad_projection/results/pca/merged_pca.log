@@ -1,0 +1,30 @@
+PLINK v2.0.0-a.6.9 64-bit (29 Jan 2025)
+Options in effect:
+  --bfile /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/merged_pruned
+  --out /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/results/pca/merged_pca
+  --pca 10
+  --threads 14
+
+Hostname: KathyLius-MacBook-Pro-2.local
+Working directory: /Users/spectremac/Desktop/kathyproject/pipeline_gnomad
+Start time: Sun Apr 26 23:24:42 2026
+
+Random number seed: 1777260282
+24576 MiB RAM detected; reserving 12288 MiB for main workspace.
+Using up to 14 threads (change this with --threads).
+4161 samples (0 females, 0 males, 4161 ambiguous; 4161 founders) loaded from
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/merged_pruned.fam.
+4875 variants loaded from
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/merged_pruned.bim.
+Note: No phenotype data present.
+Calculating allele frequencies... done.
+Constructing GRM: done.
+Correcting for missingness... done.
+Extracting eigenvalues and eigenvectors... done.
+--pca: Eigenvectors written to
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/results/pca/merged_pca.eigenvec
+, and eigenvalues written to
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/results/pca/merged_pca.eigenval
+.
+
+End time: Sun Apr 26 23:24:46 2026
