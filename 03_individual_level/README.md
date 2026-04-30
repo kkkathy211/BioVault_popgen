@@ -9,7 +9,7 @@ Analyses whose primary input is **per-individual genotype data** (one file per p
 | [`pca_qc/`](pca_qc/) | Quality control + unsupervised PCA on the study samples alone. Sanity check that genotypes are well-formed and samples cluster sensibly. | None |
 | [`admixture/`](admixture/) (DELETED!!!)| Estimate ancestry proportions per individual against the 1KGP reference (AFR/EUR/EAS/SAS/AMR), plus local-ancestry inference along the genome. | 1KGP high-coverage |
 | [`gnomad_projection/`](gnomad_projection/) | Project study samples into the gnomAD HGDP+TGP PCA space; visualize where they sit relative to global populations. | gnomAD v3.1.2 HGDP+TGP |
-| [`sex_biased_admixture/`](sex_biased_admixture/) | Test whether X-chromosome AFR ancestry exceeds autosomal AFR ancestry — the genetic signature of sex-biased colonial admixture. | None |
+| [`sex_biased_admixture/`](sex_biased_admixture/) (Used published dataset, need to apply to our own mock data, will upload ASAP)| Test whether X-chromosome AFR ancestry exceeds autosomal AFR ancestry — the genetic signature of sex-biased colonial admixture. | None |
 
 ## Common input
 
