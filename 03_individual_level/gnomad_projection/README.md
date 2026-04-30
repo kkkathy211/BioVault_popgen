@@ -9,7 +9,7 @@ Also runs ADMIXTURE on the merged cohort across `K = 3..10`.
 - Per-individual GSA TXT files at `../../01_mock_data_generation/output/{id}/...txt`.
 - gnomAD HGDP+TGP VCFs — download via `../../02_reference_panels/scripts/download_gnomad_v3_hgdp_tgp.sh`.
 
-## Reference / panel files (committed)
+## Reference / panel files (NOT Uploaded HERE!!!)
 
 ```
 reference/
