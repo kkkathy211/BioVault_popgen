@@ -1,0 +1,16 @@
+Caribbean SNPs in            : 1,044,254
+After requiring all islands  : 1,044,254
+After requiring gnomAD ref   : 5,804
+Final master_af_table rows   : 5,804
+
+Allele-frequency distributions (mean ± sd):
+  BVI            0.0578 ± 0.1351
+  TT             0.0563 ± 0.1251
+  Bahamas        0.0579 ± 0.1361
+  Barbados       0.0578 ± 0.1336
+  Bermuda        0.0571 ± 0.1249
+  StLucia        0.0578 ± 0.1338
+  gnomAD_global  0.0554 ± 0.1205
+  gnomAD_AFR     0.0581 ± 0.1400
+  gnomAD_NFE     0.0569 ± 0.1244
+  gnomAD_SAS     0.0543 ± 0.1244
