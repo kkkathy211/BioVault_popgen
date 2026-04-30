@@ -1,0 +1,125 @@
+[02] launching parallel=8 across chrs: 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 X Y
+[02] chr5: 21207 loci → starting
+[02] chr1: 28345 loci → starting
+[02] chr8: 18645 loci → starting
+[02] chr7: 20365 loci → starting
+[02] chr3: 24999 loci → starting
+[02] chr2: 29749 loci → starting
+[02] chr6: 28369 loci → starting
+[02] chr4: 22961 loci → starting
+[E::test_and_fetch] [E::test_and_fetch] Failed to close remote file https://storage.googleapis.com/gcp-public-data--gnomad/release/3.1.2/vcf/genomes/gnomad.genomes.v3.1.2.sites.chr1.vcf.bgz.tbi
+Failed to close remote file https://storage.googleapis.com/gcp-public-data--gnomad/release/3.1.2/vcf/genomes/gnomad.genomes.v3.1.2.sites.chr4.vcf.bgz.tbi[E::test_and_fetch] 
+Failed to close remote file https://storage.googleapis.com/gcp-public-data--gnomad/release/3.1.2/vcf/genomes/gnomad.genomes.v3.1.2.sites.chr5.vcf.bgz.tbi
+Failed to open https://storage.googleapis.com/gcp-public-data--gnomad/release/3.1.2/vcf/genomes/gnomad.genomes.v3.1.2.sites.chr4.vcf.bgz: could not load index
+Failed to open https://storage.googleapis.com/gcp-public-data--gnomad/release/3.1.2/vcf/genomes/gnomad.genomes.v3.1.2.sites.chr1.vcf.bgz: could not load index
+Failed to open https://storage.googleapis.com/gcp-public-data--gnomad/release/3.1.2/vcf/genomes/gnomad.genomes.v3.1.2.sites.chr5.vcf.bgz: could not load index
+Failed to open -: unknown file type
+Failed to open -: unknown file type
+Failed to open -: unknown file type
+[02] chr1: FAILED (no output)
+[02] chr4: FAILED (no output)
+[02] chr5: FAILED (no output)
+[E::test_and_fetch] Failed to close remote file https://storage.googleapis.com/gcp-public-data--gnomad/release/3.1.2/vcf/genomes/gnomad.genomes.v3.1.2.sites.chr8.vcf.bgz.tbi
+Failed to open https://storage.googleapis.com/gcp-public-data--gnomad/release/3.1.2/vcf/genomes/gnomad.genomes.v3.1.2.sites.chr8.vcf.bgz: could not load index
+Failed to open -: unknown file type
+[02] chr8: FAILED (no output)
+[E::test_and_fetch] Failed to close remote file https://storage.googleapis.com/gcp-public-data--gnomad/release/3.1.2/vcf/genomes/gnomad.genomes.v3.1.2.sites.chr2.vcf.bgz.tbi
+Failed to open https://storage.googleapis.com/gcp-public-data--gnomad/release/3.1.2/vcf/genomes/gnomad.genomes.v3.1.2.sites.chr2.vcf.bgz: could not load index
+Failed to open -: unknown file type
+[02] chr2: FAILED (no output)
+[E::test_and_fetch] Failed to close remote file https://storage.googleapis.com/gcp-public-data--gnomad/release/3.1.2/vcf/genomes/gnomad.genomes.v3.1.2.sites.chr6.vcf.bgz.tbi
+Failed to open https://storage.googleapis.com/gcp-public-data--gnomad/release/3.1.2/vcf/genomes/gnomad.genomes.v3.1.2.sites.chr6.vcf.bgz: could not load index
+Failed to open -: unknown file type
+[02] chr6: FAILED (no output)
+[E::test_and_fetch] Failed to close remote file https://storage.googleapis.com/gcp-public-data--gnomad/release/3.1.2/vcf/genomes/gnomad.genomes.v3.1.2.sites.chr3.vcf.bgz.tbi
+Failed to open https://storage.googleapis.com/gcp-public-data--gnomad/release/3.1.2/vcf/genomes/gnomad.genomes.v3.1.2.sites.chr3.vcf.bgz: could not load index
+Failed to open -: unknown file type
+[02] chr3: FAILED (no output)
+[E::test_and_fetch] Failed to close remote file https://storage.googleapis.com/gcp-public-data--gnomad/release/3.1.2/vcf/genomes/gnomad.genomes.v3.1.2.sites.chr7.vcf.bgz.tbi
+Failed to open https://storage.googleapis.com/gcp-public-data--gnomad/release/3.1.2/vcf/genomes/gnomad.genomes.v3.1.2.sites.chr7.vcf.bgz: could not load index
+Failed to open -: unknown file type
+[02] chr7: FAILED (no output)
+[02] chr10: 18288 loci → starting
+[02] chr9: 15932 loci → starting
+[02] chr11: 17988 loci → starting
+[02] chr12: 17471 loci → starting
+[02] chr13: 13206 loci → starting
+[02] chr14: 11667 loci → starting
+[02] chr15: 11531 loci → starting
+[02] chr16: 12272 loci → starting
+[E::test_and_fetch] Failed to close remote file https://storage.googleapis.com/gcp-public-data--gnomad/release/3.1.2/vcf/genomes/gnomad.genomes.v3.1.2.sites.chr11.vcf.bgz.tbi
+Failed to open https://storage.googleapis.com/gcp-public-data--gnomad/release/3.1.2/vcf/genomes/gnomad.genomes.v3.1.2.sites.chr11.vcf.bgz: could not load index
+Failed to open -: unknown file type
+[02] chr11: FAILED (no output)
+[E::test_and_fetch] Failed to close remote file https://storage.googleapis.com/gcp-public-data--gnomad/release/3.1.2/vcf/genomes/gnomad.genomes.v3.1.2.sites.chr10.vcf.bgz.tbi
+Failed to open https://storage.googleapis.com/gcp-public-data--gnomad/release/3.1.2/vcf/genomes/gnomad.genomes.v3.1.2.sites.chr10.vcf.bgz: could not load index
+Failed to open -: unknown file type
+[02] chr10: FAILED (no output)
+[E::test_and_fetch] Failed to close remote file https://storage.googleapis.com/gcp-public-data--gnomad/release/3.1.2/vcf/genomes/gnomad.genomes.v3.1.2.sites.chr12.vcf.bgz.tbi
+Failed to open https://storage.googleapis.com/gcp-public-data--gnomad/release/3.1.2/vcf/genomes/gnomad.genomes.v3.1.2.sites.chr12.vcf.bgz: could not load index
+Failed to open -: unknown file type
+[02] chr12: FAILED (no output)
+[E::test_and_fetch] Failed to close remote file https://storage.googleapis.com/gcp-public-data--gnomad/release/3.1.2/vcf/genomes/gnomad.genomes.v3.1.2.sites.chr15.vcf.bgz.tbi
+Failed to open https://storage.googleapis.com/gcp-public-data--gnomad/release/3.1.2/vcf/genomes/gnomad.genomes.v3.1.2.sites.chr15.vcf.bgz: could not load index
+[E::test_and_fetch] Failed to close remote file https://storage.googleapis.com/gcp-public-data--gnomad/release/3.1.2/vcf/genomes/gnomad.genomes.v3.1.2.sites.chr9.vcf.bgz.tbi
+Failed to open https://storage.googleapis.com/gcp-public-data--gnomad/release/3.1.2/vcf/genomes/gnomad.genomes.v3.1.2.sites.chr9.vcf.bgz: could not load index
+Failed to open -: unknown file type
+Failed to open -: unknown file type
+[02] chr15: FAILED (no output)
+[02] chr9: FAILED (no output)
+[E::test_and_fetch] Failed to close remote file https://storage.googleapis.com/gcp-public-data--gnomad/release/3.1.2/vcf/genomes/gnomad.genomes.v3.1.2.sites.chr13.vcf.bgz.tbi
+Failed to open https://storage.googleapis.com/gcp-public-data--gnomad/release/3.1.2/vcf/genomes/gnomad.genomes.v3.1.2.sites.chr13.vcf.bgz: could not load index
+Failed to open -: unknown file type
+[02] chr13: FAILED (no output)
+[E::test_and_fetch] Failed to close remote file https://storage.googleapis.com/gcp-public-data--gnomad/release/3.1.2/vcf/genomes/gnomad.genomes.v3.1.2.sites.chr16.vcf.bgz.tbi
+Failed to open https://storage.googleapis.com/gcp-public-data--gnomad/release/3.1.2/vcf/genomes/gnomad.genomes.v3.1.2.sites.chr16.vcf.bgz: could not load index
+Failed to open -: unknown file type
+[02] chr16: FAILED (no output)
+[E::test_and_fetch] Failed to close remote file https://storage.googleapis.com/gcp-public-data--gnomad/release/3.1.2/vcf/genomes/gnomad.genomes.v3.1.2.sites.chr14.vcf.bgz.tbi
+Failed to open https://storage.googleapis.com/gcp-public-data--gnomad/release/3.1.2/vcf/genomes/gnomad.genomes.v3.1.2.sites.chr14.vcf.bgz: could not load index
+Failed to open -: unknown file type
+[02] chr14: FAILED (no output)
+[02] chr17: 10808 loci → starting
+[02] chr18: 10807 loci → starting
+[02] chr19: 8344 loci → starting
+[02] chr21: 5232 loci → starting
+[02] chr20: 9098 loci → starting
+[02] chr22: 5558 loci → starting
+[02] chrX: 21246 loci → starting
+[02] chrY: 1915 loci → starting
+[E::test_and_fetch] Failed to close remote file https://storage.googleapis.com/gcp-public-data--gnomad/release/3.1.2/vcf/genomes/gnomad.genomes.v3.1.2.sites.chr22.vcf.bgz.tbi
+Failed to open https://storage.googleapis.com/gcp-public-data--gnomad/release/3.1.2/vcf/genomes/gnomad.genomes.v3.1.2.sites.chr22.vcf.bgz: could not load index
+Failed to open -: unknown file type
+[02] chr22: FAILED (no output)
+[E::test_and_fetch] Failed to close remote file https://storage.googleapis.com/gcp-public-data--gnomad/release/3.1.2/vcf/genomes/gnomad.genomes.v3.1.2.sites.chrY.vcf.bgz.tbi
+Failed to open https://storage.googleapis.com/gcp-public-data--gnomad/release/3.1.2/vcf/genomes/gnomad.genomes.v3.1.2.sites.chrY.vcf.bgz: could not load index
+Failed to open -: unknown file type
+[02] chrY: FAILED (no output)
+[E::test_and_fetch] Failed to close remote file https://storage.googleapis.com/gcp-public-data--gnomad/release/3.1.2/vcf/genomes/gnomad.genomes.v3.1.2.sites.chr17.vcf.bgz.tbi
+Failed to open https://storage.googleapis.com/gcp-public-data--gnomad/release/3.1.2/vcf/genomes/gnomad.genomes.v3.1.2.sites.chr17.vcf.bgz: could not load index
+Failed to open -: unknown file type
+[02] chr17: FAILED (no output)
+[E::test_and_fetch] Failed to close remote file https://storage.googleapis.com/gcp-public-data--gnomad/release/3.1.2/vcf/genomes/gnomad.genomes.v3.1.2.sites.chr19.vcf.bgz.tbi
+Failed to open https://storage.googleapis.com/gcp-public-data--gnomad/release/3.1.2/vcf/genomes/gnomad.genomes.v3.1.2.sites.chr19.vcf.bgz: could not load index
+Failed to open -: unknown file type
+[02] chr19: FAILED (no output)
+[E::test_and_fetch] Failed to close remote file https://storage.googleapis.com/gcp-public-data--gnomad/release/3.1.2/vcf/genomes/gnomad.genomes.v3.1.2.sites.chr18.vcf.bgz.tbi
+Failed to open https://storage.googleapis.com/gcp-public-data--gnomad/release/3.1.2/vcf/genomes/gnomad.genomes.v3.1.2.sites.chr18.vcf.bgz: could not load index
+Failed to open -: unknown file type
+[02] chr18: FAILED (no output)
+[E::test_and_fetch] Failed to close remote file https://storage.googleapis.com/gcp-public-data--gnomad/release/3.1.2/vcf/genomes/gnomad.genomes.v3.1.2.sites.chr21.vcf.bgz.tbi
+Failed to open https://storage.googleapis.com/gcp-public-data--gnomad/release/3.1.2/vcf/genomes/gnomad.genomes.v3.1.2.sites.chr21.vcf.bgz: could not load index
+Failed to open -: unknown file type
+[02] chr21: FAILED (no output)
+[E::test_and_fetch] Failed to close remote file https://storage.googleapis.com/gcp-public-data--gnomad/release/3.1.2/vcf/genomes/gnomad.genomes.v3.1.2.sites.chr20.vcf.bgz.tbi
+Failed to open https://storage.googleapis.com/gcp-public-data--gnomad/release/3.1.2/vcf/genomes/gnomad.genomes.v3.1.2.sites.chr20.vcf.bgz: could not load index
+Failed to open -: unknown file type
+[02] chr20: FAILED (no output)
+[E::test_and_fetch] Failed to close remote file https://storage.googleapis.com/gcp-public-data--gnomad/release/3.1.2/vcf/genomes/gnomad.genomes.v3.1.2.sites.chrX.vcf.bgz.tbi
+Failed to open https://storage.googleapis.com/gcp-public-data--gnomad/release/3.1.2/vcf/genomes/gnomad.genomes.v3.1.2.sites.chrX.vcf.bgz: could not load index
+Failed to open -: unknown file type
+[02] chrX: FAILED (no output)
+[02] all chromosomes done.
+total 0
+drwxr-xr-x@ 2 spectremac  staff   64 Apr 27 10:49 .
+drwxr-xr-x@ 6 spectremac  staff  192 Apr 27 10:49 ..

@@ -1,0 +1,45 @@
+[02] reading panel: /Users/spectremac/Desktop/out_copy/kathyproject_copy/pipeline_gnomad/reference/panel_hgdp_tgp.tsv
+[02] panel size: 4,150
+[02] super_pop counts:
+super_pop
+AFR    1003
+EAS     825
+CSA     790
+EUR     788
+AMR     552
+MID     162
+OCE      30
+[02] target group sizes (in panel):
+        AFR     1003
+        NFE      689
+        SAS      790
+        global  4150
+[02] chr1: 594 variants processed (samples in VCF=4151)
+[02] chr2: 431 variants processed (samples in VCF=4151)
+[02] chr3: 354 variants processed (samples in VCF=4151)
+[02] chr4: 270 variants processed (samples in VCF=4151)
+[02] chr5: 264 variants processed (samples in VCF=4151)
+[02] chr6: 280 variants processed (samples in VCF=4151)
+[02] chr7: 309 variants processed (samples in VCF=4151)
+[02] chr8: 234 variants processed (samples in VCF=4151)
+[02] chr9: 260 variants processed (samples in VCF=4151)
+[02] chr10: 272 variants processed (samples in VCF=4151)
+[02] chr11: 339 variants processed (samples in VCF=4151)
+[02] chr12: 318 variants processed (samples in VCF=4151)
+[02] chr13: 134 variants processed (samples in VCF=4151)
+[02] chr14: 193 variants processed (samples in VCF=4151)
+[02] chr15: 203 variants processed (samples in VCF=4151)
+[02] chr16: 220 variants processed (samples in VCF=4151)
+[02] chr17: 319 variants processed (samples in VCF=4151)
+[02] chr18: 126 variants processed (samples in VCF=4151)
+[02] chr19: 328 variants processed (samples in VCF=4151)
+[02] chr20: 156 variants processed (samples in VCF=4151)
+[02] chr21: 80 variants processed (samples in VCF=4151)
+[02] chr22: 124 variants processed (samples in VCF=4151)
+[02] wrote 5,808 loci → /Users/spectremac/Desktop/out_copy/popgen_indepth/data/gnomad_v4_af_per_locus.tsv
+[02] wrote QC table          → /Users/spectremac/Desktop/out_copy/popgen_indepth/data/gnomad_af_qc.tsv
+[02] AF distributions:
+        gnomAD_global  n= 5808  mean=0.0554  sd=0.1205
+        gnomAD_AFR     n= 5808  mean=0.0581  sd=0.1400
+        gnomAD_NFE     n= 5808  mean=0.0569  sd=0.1244
+        gnomAD_SAS     n= 5808  mean=0.0543  sd=0.1244
