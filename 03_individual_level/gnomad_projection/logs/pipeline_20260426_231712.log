@@ -1,0 +1,174 @@
+[23:17:12] Starting GAI pipeline (gnomAD v3.1.2 HGDP+1kGP reference)
+[23:17:12] Project: /Users/spectremac/Desktop/kathyproject
+[23:17:12] Threads: 14
+[23:17:12] Step 0 already done, skipping setup
+[23:17:13] Step 1 already done, skipping conversion
+[23:17:13] Step 2 already done, skipping QC
+[23:17:13] Step 2b already done, skipping loadings-intersect
+[23:17:13] Step 3 already done, skipping reference download
+[23:17:13] Step 4 already done, skipping reference preparation
+[23:17:13] STEP 5: Merge study + reference and LD prune
+PLINK v2.0.0-a.6.9 64-bit (29 Jan 2025)            cog-genomics.org/plink/2.0/
+(C) 2005-2025 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/study_qc_chrpos.log.
+Options in effect:
+  --bfile /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/study_qc
+  --make-bed
+  --out /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/study_qc_chrpos
+  --set-all-var-ids @:#
+  --threads 14
+
+Start time: Sun Apr 26 23:17:13 2026
+24576 MiB RAM detected; reserving 12288 MiB for main workspace.
+Using up to 14 threads (change this with --threads).
+10 samples (0 females, 0 males, 10 ambiguous; 10 founders) loaded from
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/study_qc.fam.
+395101 variants loaded from
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/study_qc.bim.
+Note: No phenotype data present.
+Writing
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/study_qc_chrpos.fam
+... done.
+Writing
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/study_qc_chrpos.bim
+... done.
+Writing
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/study_qc_chrpos.bed
+... 0%16%33%49%66%82%99%done.
+End time: Sun Apr 26 23:17:13 2026
+[23:17:13] Common SNPs (study ∩ HGDP+1kGP):     5808
+PLINK v2.0.0-a.6.9 64-bit (29 Jan 2025)            cog-genomics.org/plink/2.0/
+(C) 2005-2025 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/study_common.log.
+Options in effect:
+  --bfile /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/study_qc_chrpos
+  --extract /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/common_snps.txt
+  --make-bed
+  --out /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/study_common
+  --threads 14
+
+Start time: Sun Apr 26 23:17:13 2026
+24576 MiB RAM detected; reserving 12288 MiB for main workspace.
+Using up to 14 threads (change this with --threads).
+10 samples (0 females, 0 males, 10 ambiguous; 10 founders) loaded from
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/study_qc_chrpos.fam.
+395101 variants loaded from
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/study_qc_chrpos.bim.
+Note: No phenotype data present.
+--extract: 5808 variants remaining.
+5808 variants remaining after main filters.
+Writing
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/study_common.fam
+... done.
+Writing
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/study_common.bim
+... done.
+Writing
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/study_common.bed
+... 0%17%29%43%60%76%99%done.
+End time: Sun Apr 26 23:17:13 2026
+PLINK v2.0.0-a.6.9 64-bit (29 Jan 2025)            cog-genomics.org/plink/2.0/
+(C) 2005-2025 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_common.log.
+Options in effect:
+  --bfile /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_prepared
+  --extract /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/common_snps.txt
+  --make-bed
+  --out /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_common
+  --threads 14
+
+Start time: Sun Apr 26 23:17:13 2026
+24576 MiB RAM detected; reserving 12288 MiB for main workspace.
+Using up to 14 threads (change this with --threads).
+4151 samples (0 females, 0 males, 4151 ambiguous; 4151 founders) loaded from
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_prepared.fam.
+5808 variants loaded from
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_prepared.bim.
+Note: No phenotype data present.
+--extract: 5808 variants remaining.
+5808 variants remaining after main filters.
+Writing
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_common.fam
+... done.
+Writing
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_common.bim
+... done.
+Writing
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_common.bed
+... 0%done.
+End time: Sun Apr 26 23:17:13 2026
+PLINK v2.0.0-a.6.9 64-bit (29 Jan 2025)            cog-genomics.org/plink/2.0/
+(C) 2005-2025 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/study_noambi.log.
+Options in effect:
+  --bfile /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/study_common
+  --exclude /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/ambiguous_snps.txt
+  --make-bed
+  --out /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/study_noambi
+  --threads 14
+
+Start time: Sun Apr 26 23:17:13 2026
+24576 MiB RAM detected; reserving 12288 MiB for main workspace.
+Using up to 14 threads (change this with --threads).
+10 samples (0 females, 0 males, 10 ambiguous; 10 founders) loaded from
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/study_common.fam.
+5808 variants loaded from
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/study_common.bim.
+Note: No phenotype data present.
+--exclude: 5508 variants remaining.
+5508 variants remaining after main filters.
+Writing
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/study_noambi.fam
+... done.
+Writing
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/study_noambi.bim
+... done.
+Writing
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/study_noambi.bed
+... 0%done.
+End time: Sun Apr 26 23:17:13 2026
+PLINK v2.0.0-a.6.9 64-bit (29 Jan 2025)            cog-genomics.org/plink/2.0/
+(C) 2005-2025 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_noambi.log.
+Options in effect:
+  --bfile /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_common
+  --exclude /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/ambiguous_snps.txt
+  --make-bed
+  --out /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_noambi
+  --threads 14
+
+Start time: Sun Apr 26 23:17:13 2026
+24576 MiB RAM detected; reserving 12288 MiB for main workspace.
+Using up to 14 threads (change this with --threads).
+4151 samples (0 females, 0 males, 4151 ambiguous; 4151 founders) loaded from
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_common.fam.
+5808 variants loaded from
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_common.bim.
+Note: No phenotype data present.
+--exclude: 5508 variants remaining.
+5508 variants remaining after main filters.
+Writing
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_noambi.fam
+... done.
+Writing
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_noambi.bim
+... done.
+Writing
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_noambi.bed
+... 0%done.
+End time: Sun Apr 26 23:17:13 2026
+PLINK v2.0.0-a.6.9 64-bit (29 Jan 2025)            cog-genomics.org/plink/2.0/
+(C) 2005-2025 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/merged.log.
+Options in effect:
+  --bfile /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/study_noambi
+  --make-bed
+  --out /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/merged
+  --pmerge /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_noambi bfile
+  --threads 14
+
+Start time: Sun Apr 26 23:17:13 2026
+Error: Invalid --pmerge argument sequence.
+For more info, try "plink2 --help <flag name>" or "plink2 --help | more".
+[23:17:13] WARNING: Merge failed. Trying to remove mismatched SNPs.
+[23:17:13] ERROR: Merge failed and no missnp file was produced.

@@ -1,0 +1,1282 @@
+[22:22:02] Starting GAI pipeline (gnomAD v3.1.2 HGDP+1kGP reference)
+[22:22:02] Project: /Users/spectremac/Desktop/kathyproject
+[22:22:02] Threads: 14
+[22:22:02] Step 0 already done, skipping setup
+[22:22:03] Step 1 already done, skipping conversion
+[22:22:03] Step 2 already done, skipping QC
+[22:22:03] Step 2b already done, skipping loadings-intersect
+[22:22:03] STEP 3: Download gnomAD v3.1.2 HGDP+1kGP reference
+Wrote 4150 labeled samples to /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/reference/panel_hgdp_tgp.tsv; skipped 1 unlabeled/malformed samples
+[22:22:03] Reference samples:     4150
+[22:22:03] BED-positions source: /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/study_qc_pruned.bim (    5973 SNPs)
+[22:22:03] Pre-downloading .tbi indexes for all 22 chrs (one-time, <1 MB total)
+[22:22:03]   .tbi indexes ready: 22 files
+[22:22:03] Downloading chrs with PARALLEL_CHRS=4
+[22:22:03] chr1:      615 SNPs ->      512 regions -> 9 chunks (60/chunk)
+[22:22:03] chr2:      489 SNPs ->      394 regions -> 7 chunks (60/chunk)
+[22:22:03] chr3:      354 SNPs ->      306 regions -> 6 chunks (60/chunk)
+[22:22:03] chr3: 6/6 chunks ok (0 failed); concatenating
+[22:22:03] chr4:      270 SNPs ->      242 regions -> 5 chunks (60/chunk)
+[22:22:03] chr4: 5/5 chunks ok (0 failed); concatenating
+Checking the headers and starting positions of 5 files
+Checking the headers and starting positions of 6 files
+Concatenating /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/chunks_chr4/regions_aaaa.vcf.gzConcatenating /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/chunks_chr3/regions_aaaa.vcf.gz	0.087924 seconds
+Concatenating /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/chunks_chr4/regions_aaab.vcf.gz	0.029366 seconds
+Concatenating /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/chunks_chr4/regions_aaac.vcf.gz	0.162598 seconds
+Concatenating /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/chunks_chr3/regions_aaab.vcf.gz	0.084769 seconds
+Concatenating /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/chunks_chr4/regions_aaad.vcf.gz	0.046269 seconds
+Concatenating /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/chunks_chr3/regions_aaac.vcf.gz	0.016340 seconds
+Concatenating /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/chunks_chr3/regions_aaad.vcf.gz	0.048514 seconds
+Concatenating /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/chunks_chr4/regions_aaae.vcf.gz	0.001185 seconds
+	0.109334 seconds
+Concatenating /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/chunks_chr3/regions_aaae.vcf.gz	0.031044 seconds
+Concatenating /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/chunks_chr3/regions_aaaf.vcf.gz	0.018089 seconds
+[22:22:04] chr4: done (270 sites)
+[22:22:04] chr3: done (354 sites)
+[22:22:08] chr5:      290 SNPs ->      259 regions -> 5 chunks (60/chunk)
+[22:22:08] chr6:      337 SNPs ->      303 regions -> 6 chunks (60/chunk)
+[22:25:49] chr2: 7/7 chunks ok (0 failed); concatenating
+Checking the headers and starting positions of 7 files
+Concatenating /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/chunks_chr2/regions_aaaa.vcf.gz	0.131705 seconds
+Concatenating /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/chunks_chr2/regions_aaab.vcf.gz	0.053158 seconds
+Concatenating /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/chunks_chr2/regions_aaac.vcf.gz	0.058008 seconds
+Concatenating /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/chunks_chr2/regions_aaad.vcf.gz	0.119103 seconds
+Concatenating /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/chunks_chr2/regions_aaae.vcf.gz	0.036598 seconds
+Concatenating /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/chunks_chr2/regions_aaaf.vcf.gz	0.077700 seconds
+Concatenating /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/chunks_chr2/regions_aaag.vcf.gz	0.091856 seconds
+[22:25:50] chr2: done (431 sites)
+[22:25:54] chr7:      310 SNPs ->      257 regions -> 5 chunks (60/chunk)
+[22:30:18] chr5: 5/5 chunks ok (0 failed); concatenating
+Checking the headers and starting positions of 5 files
+Concatenating /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/chunks_chr5/regions_aaaa.vcf.gz	0.005017 seconds
+Concatenating /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/chunks_chr5/regions_aaab.vcf.gz	0.046539 seconds
+Concatenating /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/chunks_chr5/regions_aaac.vcf.gz	0.028848 seconds
+Concatenating /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/chunks_chr5/regions_aaad.vcf.gz	0.102713 seconds
+Concatenating /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/chunks_chr5/regions_aaae.vcf.gz	0.004476 seconds
+[22:30:18] chr5: done (264 sites)
+[22:30:20] chr8:      234 SNPs ->      204 regions -> 4 chunks (60/chunk)
+[22:31:07] chr1: 9/9 chunks ok (0 failed); concatenating
+Checking the headers and starting positions of 9 files
+Concatenating /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/chunks_chr1/regions_aaaa.vcf.gz	0.133508 seconds
+Concatenating /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/chunks_chr1/regions_aaab.vcf.gz	0.154360 seconds
+Concatenating /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/chunks_chr1/regions_aaac.vcf.gz	0.180409 seconds
+Concatenating /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/chunks_chr1/regions_aaad.vcf.gz	0.188134 seconds
+Concatenating /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/chunks_chr1/regions_aaae.vcf.gz	0.047782 seconds
+Concatenating /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/chunks_chr1/regions_aaaf.vcf.gz	0.094545 seconds
+Concatenating /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/chunks_chr1/regions_aaag.vcf.gz	0.147738 seconds
+Concatenating /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/chunks_chr1/regions_aaah.vcf.gz	0.060047 seconds
+Concatenating /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/chunks_chr1/regions_aaai.vcf.gz	0.033178 seconds
+[22:31:10] chr1: done (594 sites)
+[22:31:10] chr9:      260 SNPs ->      216 regions -> 4 chunks (60/chunk)
+[22:31:36] chr6: 6/6 chunks ok (0 failed); concatenating
+Checking the headers and starting positions of 6 files
+Concatenating /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/chunks_chr6/regions_aaaa.vcf.gz	0.009042 seconds
+Concatenating /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/chunks_chr6/regions_aaab.vcf.gz	0.124626 seconds
+Concatenating /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/chunks_chr6/regions_aaac.vcf.gz	0.111145 seconds
+Concatenating /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/chunks_chr6/regions_aaad.vcf.gz	0.052732 seconds
+Concatenating /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/chunks_chr6/regions_aaae.vcf.gz	0.048429 seconds
+Concatenating /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/chunks_chr6/regions_aaaf.vcf.gz	0.003556 seconds
+[22:31:37] chr6: done (280 sites)
+[22:31:40] chr10:      272 SNPs ->      225 regions -> 4 chunks (60/chunk)
+[22:34:02] WARNING: chr10 regions_aaaa: attempt 1/5 failed; retry in 15s
+[E::hts_itr_next] Failed to seek to offset 3377099060626829: Illegal seek
+Error: BCF read error
+[22:35:23] WARNING: chr9 regions_aaab: attempt 1/5 failed; retry in 15s
+[E::hts_itr_next] Failed to seek to offset 7999660503991073: Illegal seek
+Error: BCF read error
+[22:36:38] WARNING: chr8 regions_aaac: attempt 1/5 failed; retry in 15s
+[E::hts_itr_next] Failed to seek to offset 11354394248978291: Illegal seek
+Error: BCF read error
+[22:37:25] chr7: 5/5 chunks ok (0 failed); concatenating
+Checking the headers and starting positions of 5 files
+Concatenating /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/chunks_chr7/regions_aaaa.vcf.gz	0.132055 seconds
+Concatenating /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/chunks_chr7/regions_aaab.vcf.gz	0.076210 seconds
+Concatenating /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/chunks_chr7/regions_aaac.vcf.gz	0.161721 seconds
+Concatenating /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/chunks_chr7/regions_aaad.vcf.gz	0.209942 seconds
+Concatenating /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/chunks_chr7/regions_aaae.vcf.gz	0.182441 seconds
+[22:37:27] chr7: done (309 sites)
+[22:37:31] chr11:      340 SNPs ->      279 regions -> 5 chunks (60/chunk)
+[22:39:28] WARNING: chr10 regions_aaac: attempt 1/5 failed; retry in 15s
+[E::hts_itr_next] Failed to seek to offset 8695375944909785: Illegal seek
+Error: BCF read error
+[22:41:00] chr8: 4/4 chunks ok (0 failed); concatenating
+Checking the headers and starting positions of 4 files
+Concatenating /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/chunks_chr8/regions_aaaa.vcf.gz	0.070450 seconds
+Concatenating /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/chunks_chr8/regions_aaab.vcf.gz	0.058097 seconds
+Concatenating /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/chunks_chr8/regions_aaac.vcf.gz	0.023980 seconds
+Concatenating /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/chunks_chr8/regions_aaad.vcf.gz	0.015110 seconds
+[22:41:00] chr8: done (234 sites)
+[22:41:01] chr12:      318 SNPs ->      267 regions -> 5 chunks (60/chunk)
+[22:41:49] WARNING: chr11 regions_aaab: attempt 1/5 failed; retry in 15s
+[E::hts_itr_next] Failed to seek to offset 4815560466283322: Illegal seek
+Error: BCF read error
+[22:43:52] chr9: 4/4 chunks ok (0 failed); concatenating
+Checking the headers and starting positions of 4 files
+Concatenating /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/chunks_chr9/regions_aaaa.vcf.gz	0.083356 seconds
+Concatenating /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/chunks_chr9/regions_aaab.vcf.gz	0.123115 seconds
+Concatenating /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/chunks_chr9/regions_aaac.vcf.gz	0.131644 seconds
+Concatenating /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/chunks_chr9/regions_aaad.vcf.gz	0.081511 seconds
+[22:43:53] chr9: done (260 sites)
+[22:43:57] chr13:      134 SNPs ->      106 regions -> 2 chunks (60/chunk)
+[22:44:22] chr10: 4/4 chunks ok (0 failed); concatenating
+Checking the headers and starting positions of 4 files
+Concatenating /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/chunks_chr10/regions_aaaa.vcf.gz	0.055909 seconds
+Concatenating /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/chunks_chr10/regions_aaab.vcf.gz	0.076107 seconds
+Concatenating /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/chunks_chr10/regions_aaac.vcf.gz	0.351519 seconds
+Concatenating /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/chunks_chr10/regions_aaad.vcf.gz	0.072163 seconds
+[22:44:24] chr10: done (272 sites)
+[22:44:27] chr14:      193 SNPs ->      162 regions -> 3 chunks (60/chunk)
+[22:44:37] WARNING: chr11 regions_aaab: attempt 2/5 failed; retry in 30s
+[E::bgzf_read_block] Failed to read BGZF header at offset 73479621372
+Error: BCF read error
+[22:48:41] chr13: 2/2 chunks ok (0 failed); concatenating
+Checking the headers and starting positions of 2 files
+Concatenating /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/chunks_chr13/regions_aaaa.vcf.gz	0.280900 seconds
+Concatenating /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/chunks_chr13/regions_aaab.vcf.gz	0.118664 seconds
+[22:48:42] chr13: done (134 sites)
+[22:48:43] chr15:      203 SNPs ->      176 regions -> 3 chunks (60/chunk)
+[22:52:26] chr14: 3/3 chunks ok (0 failed); concatenating
+Checking the headers and starting positions of 3 files
+Concatenating /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/chunks_chr14/regions_aaaa.vcf.gz	0.090038 seconds
+Concatenating /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/chunks_chr14/regions_aaab.vcf.gz	0.156846 seconds
+Concatenating /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/chunks_chr14/regions_aaac.vcf.gz	0.025732 seconds
+[22:52:26] chr14: done (193 sites)
+[22:52:28] chr16:      220 SNPs ->      181 regions -> 4 chunks (60/chunk)
+[22:52:36] chr12: 5/5 chunks ok (0 failed); concatenating
+Checking the headers and starting positions of 5 files
+Concatenating /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/chunks_chr12/regions_aaaa.vcf.gz	0.117036 seconds
+Concatenating /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/chunks_chr12/regions_aaab.vcf.gz	0.100616 seconds
+Concatenating /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/chunks_chr12/regions_aaac.vcf.gz	0.134318 seconds
+Concatenating /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/chunks_chr12/regions_aaad.vcf.gz	0.093025 seconds
+Concatenating /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/chunks_chr12/regions_aaae.vcf.gz	0.074176 seconds
+[22:52:38] chr12: done (318 sites)
+[22:52:38] chr17:      320 SNPs ->      259 regions -> 5 chunks (60/chunk)
+[22:54:26] WARNING: chr11 regions_aaae: attempt 1/5 failed; retry in 15s
+[E::hts_itr_next] Failed to seek to offset 10810877210555636: Illegal seek
+Error: BCF read error
+[22:54:43] WARNING: chr16 regions_aaaa: attempt 1/5 failed; retry in 15s
+[E::hts_itr_next] Failed to seek to offset 2240197295351419: Illegal seek
+Error: BCF read error
+[22:55:13] WARNING: chr11 regions_aaae: attempt 2/5 failed; retry in 30s
+[E::hts_itr_next] Failed to seek to offset 10810877210555636: Illegal seek
+Error: BCF read error
+[22:55:56] WARNING: chr11 regions_aaae: attempt 3/5 failed; retry in 45s
+[E::hts_itr_next] Failed to seek to offset 10810877210555636: Illegal seek
+Error: BCF read error
+[22:55:57] chr15: 3/3 chunks ok (0 failed); concatenating
+Checking the headers and starting positions of 3 files
+Concatenating /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/chunks_chr15/regions_aaaa.vcf.gz	0.116927 seconds
+Concatenating /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/chunks_chr15/regions_aaab.vcf.gz	0.032019 seconds
+Concatenating /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/chunks_chr15/regions_aaac.vcf.gz	0.062636 seconds
+[22:55:57] chr15: done (203 sites)
+[22:55:59] chr18:      126 SNPs ->      102 regions -> 2 chunks (60/chunk)
+[22:56:15] WARNING: chr17 regions_aaab: attempt 1/5 failed; retry in 15s
+[E::hts_itr_next] Failed to seek to offset 3355534266067600: Illegal seek
+Error: BCF read error
+[22:56:55] WARNING: chr18 regions_aaaa: attempt 1/5 failed; retry in 15s
+[E::hts_itr_next] Failed to seek to offset 3259603229739561: Illegal seek
+Error: BCF read error
+[22:58:14] chr11: 5/5 chunks ok (0 failed); concatenating
+Checking the headers and starting positions of 5 files
+Concatenating /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/chunks_chr11/regions_aaaa.vcf.gz	0.163890 seconds
+Concatenating /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/chunks_chr11/regions_aaab.vcf.gz	0.126465 seconds
+Concatenating /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/chunks_chr11/regions_aaac.vcf.gz	0.166261 seconds
+Concatenating /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/chunks_chr11/regions_aaad.vcf.gz	0.114870 seconds
+Concatenating /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/chunks_chr11/regions_aaae.vcf.gz	0.072473 seconds
+[22:58:15] chr11: done (339 sites)
+[22:58:20] chr19:      328 SNPs ->      267 regions -> 5 chunks (60/chunk)
+[23:02:39] chr18: 2/2 chunks ok (0 failed); concatenating
+Checking the headers and starting positions of 2 files
+Concatenating /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/chunks_chr18/regions_aaaa.vcf.gz	0.243440 seconds
+Concatenating /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/chunks_chr18/regions_aaab.vcf.gz	0.072261 seconds
+[23:02:40] chr18: done (126 sites)
+[23:02:40] chr20:      156 SNPs ->      133 regions -> 3 chunks (60/chunk)
+[23:04:41] chr16: 4/4 chunks ok (0 failed); concatenating
+Checking the headers and starting positions of 4 files
+Concatenating /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/chunks_chr16/regions_aaaa.vcf.gz	0.174185 seconds
+Concatenating /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/chunks_chr16/regions_aaab.vcf.gz	0.106587 seconds
+Concatenating /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/chunks_chr16/regions_aaac.vcf.gz	0.065287 seconds
+Concatenating /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/chunks_chr16/regions_aaad.vcf.gz	0.001321 seconds
+[23:04:42] chr16: done (220 sites)
+[23:04:46] chr21:       80 SNPs ->       70 regions -> 2 chunks (60/chunk)
+[23:07:12] chr17: 5/5 chunks ok (0 failed); concatenating
+Checking the headers and starting positions of 5 files
+Concatenating /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/chunks_chr17/regions_aaaa.vcf.gz	0.145366 seconds
+Concatenating /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/chunks_chr17/regions_aaab.vcf.gz	0.153107 seconds
+Concatenating /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/chunks_chr17/regions_aaac.vcf.gz	0.143408 seconds
+Concatenating /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/chunks_chr17/regions_aaad.vcf.gz	0.200523 seconds
+Concatenating /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/chunks_chr17/regions_aaae.vcf.gz	0.060816 seconds
+[23:07:14] chr17: done (319 sites)
+[23:07:16] chr22:      124 SNPs ->      104 regions -> 2 chunks (60/chunk)
+[23:09:32] chr21: 2/2 chunks ok (0 failed); concatenating
+Checking the headers and starting positions of 2 files
+Concatenating /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/chunks_chr21/regions_aaaa.vcf.gz	0.139122 seconds
+Concatenating /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/chunks_chr21/regions_aaab.vcf.gz	0.052147 seconds
+[23:09:32] chr21: done (80 sites)
+[23:10:04] chr20: 3/3 chunks ok (0 failed); concatenating
+Checking the headers and starting positions of 3 files
+Concatenating /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/chunks_chr20/regions_aaaa.vcf.gz	0.079868 seconds
+Concatenating /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/chunks_chr20/regions_aaab.vcf.gz	0.063100 seconds
+Concatenating /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/chunks_chr20/regions_aaac.vcf.gz	0.053580 seconds
+[23:10:05] chr20: done (156 sites)
+[23:12:34] chr22: 2/2 chunks ok (0 failed); concatenating
+Checking the headers and starting positions of 2 files
+Concatenating /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/chunks_chr22/regions_aaaa.vcf.gz	0.141203 seconds
+Concatenating /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/chunks_chr22/regions_aaab.vcf.gz	0.022051 seconds
+[23:12:35] chr22: done (124 sites)
+[23:15:16] chr19: 5/5 chunks ok (0 failed); concatenating
+Checking the headers and starting positions of 5 files
+Concatenating /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/chunks_chr19/regions_aaaa.vcf.gz	0.268386 seconds
+Concatenating /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/chunks_chr19/regions_aaab.vcf.gz	0.121110 seconds
+Concatenating /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/chunks_chr19/regions_aaac.vcf.gz	0.214971 seconds
+Concatenating /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/chunks_chr19/regions_aaad.vcf.gz	0.103587 seconds
+Concatenating /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/chunks_chr19/regions_aaae.vcf.gz	0.088901 seconds
+[23:15:18] chr19: done (328 sites)
+[23:15:18] STEP 4: Prepare reference PLINK files
+PLINK v2.0.0-a.6.9 64-bit (29 Jan 2025)            cog-genomics.org/plink/2.0/
+(C) 2005-2025 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr1.log.
+Options in effect:
+  --make-bed
+  --new-id-max-allele-len 10 truncate
+  --out /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr1
+  --output-chr 26
+  --set-all-var-ids @:#
+  --threads 14
+  --vcf /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/reference/hgdp_tgp_study_snps_chr1.vcf.gz
+
+Start time: Sun Apr 26 23:15:18 2026
+24576 MiB RAM detected; reserving 12288 MiB for main workspace.
+Using up to 14 threads (change this with --threads).
+--vcf: 594 variants scanned.
+--vcf: 0k variants converted.    --vcf:
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr1-temporary.pgen
++
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr1-temporary.pvar.zst
++
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr1-temporary.psam
+written.
+4151 samples (0 females, 0 males, 4151 ambiguous; 4151 founders) loaded from
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr1-temporary.psam.
+594 variants loaded from
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr1-temporary.pvar.zst.
+Note: No phenotype data present.
+Writing
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr1.fam
+... done.
+Writing
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr1.bim
+... done.
+Writing
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr1.bed
+... 0%done.
+End time: Sun Apr 26 23:15:18 2026
+PLINK v2.0.0-a.6.9 64-bit (29 Jan 2025)            cog-genomics.org/plink/2.0/
+(C) 2005-2025 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr2.log.
+Options in effect:
+  --make-bed
+  --new-id-max-allele-len 10 truncate
+  --out /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr2
+  --output-chr 26
+  --set-all-var-ids @:#
+  --threads 14
+  --vcf /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/reference/hgdp_tgp_study_snps_chr2.vcf.gz
+
+Start time: Sun Apr 26 23:15:18 2026
+24576 MiB RAM detected; reserving 12288 MiB for main workspace.
+Using up to 14 threads (change this with --threads).
+--vcf: 431 variants scanned.
+--vcf: 0k variants converted.    --vcf:
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr2-temporary.pgen
++
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr2-temporary.pvar.zst
++
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr2-temporary.psam
+written.
+4151 samples (0 females, 0 males, 4151 ambiguous; 4151 founders) loaded from
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr2-temporary.psam.
+431 variants loaded from
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr2-temporary.pvar.zst.
+Note: No phenotype data present.
+Writing
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr2.fam
+... done.
+Writing
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr2.bim
+... done.
+Writing
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr2.bed
+... 0%done.
+End time: Sun Apr 26 23:15:18 2026
+PLINK v2.0.0-a.6.9 64-bit (29 Jan 2025)            cog-genomics.org/plink/2.0/
+(C) 2005-2025 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr3.log.
+Options in effect:
+  --make-bed
+  --new-id-max-allele-len 10 truncate
+  --out /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr3
+  --output-chr 26
+  --set-all-var-ids @:#
+  --threads 14
+  --vcf /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/reference/hgdp_tgp_study_snps_chr3.vcf.gz
+
+Start time: Sun Apr 26 23:15:18 2026
+24576 MiB RAM detected; reserving 12288 MiB for main workspace.
+Using up to 14 threads (change this with --threads).
+--vcf: 354 variants scanned.
+--vcf: 0k variants converted.    --vcf:
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr3-temporary.pgen
++
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr3-temporary.pvar.zst
++
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr3-temporary.psam
+written.
+4151 samples (0 females, 0 males, 4151 ambiguous; 4151 founders) loaded from
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr3-temporary.psam.
+354 variants loaded from
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr3-temporary.pvar.zst.
+Note: No phenotype data present.
+Writing
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr3.fam
+... done.
+Writing
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr3.bim
+... done.
+Writing
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr3.bed
+... 0%done.
+End time: Sun Apr 26 23:15:18 2026
+PLINK v2.0.0-a.6.9 64-bit (29 Jan 2025)            cog-genomics.org/plink/2.0/
+(C) 2005-2025 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr4.log.
+Options in effect:
+  --make-bed
+  --new-id-max-allele-len 10 truncate
+  --out /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr4
+  --output-chr 26
+  --set-all-var-ids @:#
+  --threads 14
+  --vcf /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/reference/hgdp_tgp_study_snps_chr4.vcf.gz
+
+Start time: Sun Apr 26 23:15:18 2026
+24576 MiB RAM detected; reserving 12288 MiB for main workspace.
+Using up to 14 threads (change this with --threads).
+--vcf: 270 variants scanned.
+--vcf: 0k variants converted.    --vcf:
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr4-temporary.pgen
++
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr4-temporary.pvar.zst
++
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr4-temporary.psam
+written.
+4151 samples (0 females, 0 males, 4151 ambiguous; 4151 founders) loaded from
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr4-temporary.psam.
+270 variants loaded from
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr4-temporary.pvar.zst.
+Note: No phenotype data present.
+Writing
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr4.fam
+... done.
+Writing
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr4.bim
+... done.
+Writing
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr4.bed
+... 0%done.
+End time: Sun Apr 26 23:15:18 2026
+PLINK v2.0.0-a.6.9 64-bit (29 Jan 2025)            cog-genomics.org/plink/2.0/
+(C) 2005-2025 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr5.log.
+Options in effect:
+  --make-bed
+  --new-id-max-allele-len 10 truncate
+  --out /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr5
+  --output-chr 26
+  --set-all-var-ids @:#
+  --threads 14
+  --vcf /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/reference/hgdp_tgp_study_snps_chr5.vcf.gz
+
+Start time: Sun Apr 26 23:15:18 2026
+24576 MiB RAM detected; reserving 12288 MiB for main workspace.
+Using up to 14 threads (change this with --threads).
+--vcf: 264 variants scanned.
+--vcf: 0k variants converted.    --vcf:
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr5-temporary.pgen
++
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr5-temporary.pvar.zst
++
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr5-temporary.psam
+written.
+4151 samples (0 females, 0 males, 4151 ambiguous; 4151 founders) loaded from
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr5-temporary.psam.
+264 variants loaded from
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr5-temporary.pvar.zst.
+Note: No phenotype data present.
+Writing
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr5.fam
+... done.
+Writing
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr5.bim
+... done.
+Writing
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr5.bed
+... 0%done.
+End time: Sun Apr 26 23:15:18 2026
+PLINK v2.0.0-a.6.9 64-bit (29 Jan 2025)            cog-genomics.org/plink/2.0/
+(C) 2005-2025 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr6.log.
+Options in effect:
+  --make-bed
+  --new-id-max-allele-len 10 truncate
+  --out /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr6
+  --output-chr 26
+  --set-all-var-ids @:#
+  --threads 14
+  --vcf /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/reference/hgdp_tgp_study_snps_chr6.vcf.gz
+
+Start time: Sun Apr 26 23:15:18 2026
+24576 MiB RAM detected; reserving 12288 MiB for main workspace.
+Using up to 14 threads (change this with --threads).
+--vcf: 280 variants scanned.
+--vcf: 0k variants converted.    --vcf:
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr6-temporary.pgen
++
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr6-temporary.pvar.zst
++
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr6-temporary.psam
+written.
+4151 samples (0 females, 0 males, 4151 ambiguous; 4151 founders) loaded from
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr6-temporary.psam.
+280 variants loaded from
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr6-temporary.pvar.zst.
+Note: No phenotype data present.
+Writing
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr6.fam
+... done.
+Writing
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr6.bim
+... done.
+Writing
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr6.bed
+... 0%done.
+End time: Sun Apr 26 23:15:18 2026
+PLINK v2.0.0-a.6.9 64-bit (29 Jan 2025)            cog-genomics.org/plink/2.0/
+(C) 2005-2025 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr7.log.
+Options in effect:
+  --make-bed
+  --new-id-max-allele-len 10 truncate
+  --out /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr7
+  --output-chr 26
+  --set-all-var-ids @:#
+  --threads 14
+  --vcf /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/reference/hgdp_tgp_study_snps_chr7.vcf.gz
+
+Start time: Sun Apr 26 23:15:18 2026
+24576 MiB RAM detected; reserving 12288 MiB for main workspace.
+Using up to 14 threads (change this with --threads).
+--vcf: 309 variants scanned.
+--vcf: 0k variants converted.    --vcf:
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr7-temporary.pgen
++
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr7-temporary.pvar.zst
++
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr7-temporary.psam
+written.
+4151 samples (0 females, 0 males, 4151 ambiguous; 4151 founders) loaded from
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr7-temporary.psam.
+309 variants loaded from
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr7-temporary.pvar.zst.
+Note: No phenotype data present.
+Writing
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr7.fam
+... done.
+Writing
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr7.bim
+... done.
+Writing
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr7.bed
+... 0%done.
+End time: Sun Apr 26 23:15:18 2026
+PLINK v2.0.0-a.6.9 64-bit (29 Jan 2025)            cog-genomics.org/plink/2.0/
+(C) 2005-2025 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr8.log.
+Options in effect:
+  --make-bed
+  --new-id-max-allele-len 10 truncate
+  --out /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr8
+  --output-chr 26
+  --set-all-var-ids @:#
+  --threads 14
+  --vcf /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/reference/hgdp_tgp_study_snps_chr8.vcf.gz
+
+Start time: Sun Apr 26 23:15:18 2026
+24576 MiB RAM detected; reserving 12288 MiB for main workspace.
+Using up to 14 threads (change this with --threads).
+--vcf: 234 variants scanned.
+--vcf: 0k variants converted.    --vcf:
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr8-temporary.pgen
++
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr8-temporary.pvar.zst
++
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr8-temporary.psam
+written.
+4151 samples (0 females, 0 males, 4151 ambiguous; 4151 founders) loaded from
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr8-temporary.psam.
+234 variants loaded from
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr8-temporary.pvar.zst.
+Note: No phenotype data present.
+Writing
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr8.fam
+... done.
+Writing
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr8.bim
+... done.
+Writing
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr8.bed
+... 0%done.
+End time: Sun Apr 26 23:15:18 2026
+PLINK v2.0.0-a.6.9 64-bit (29 Jan 2025)            cog-genomics.org/plink/2.0/
+(C) 2005-2025 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr9.log.
+Options in effect:
+  --make-bed
+  --new-id-max-allele-len 10 truncate
+  --out /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr9
+  --output-chr 26
+  --set-all-var-ids @:#
+  --threads 14
+  --vcf /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/reference/hgdp_tgp_study_snps_chr9.vcf.gz
+
+Start time: Sun Apr 26 23:15:18 2026
+24576 MiB RAM detected; reserving 12288 MiB for main workspace.
+Using up to 14 threads (change this with --threads).
+--vcf: 260 variants scanned.
+--vcf: 0k variants converted.    --vcf:
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr9-temporary.pgen
++
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr9-temporary.pvar.zst
++
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr9-temporary.psam
+written.
+4151 samples (0 females, 0 males, 4151 ambiguous; 4151 founders) loaded from
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr9-temporary.psam.
+260 variants loaded from
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr9-temporary.pvar.zst.
+Note: No phenotype data present.
+Writing
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr9.fam
+... done.
+Writing
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr9.bim
+... done.
+Writing
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr9.bed
+... 0%done.
+End time: Sun Apr 26 23:15:18 2026
+PLINK v2.0.0-a.6.9 64-bit (29 Jan 2025)            cog-genomics.org/plink/2.0/
+(C) 2005-2025 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr10.log.
+Options in effect:
+  --make-bed
+  --new-id-max-allele-len 10 truncate
+  --out /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr10
+  --output-chr 26
+  --set-all-var-ids @:#
+  --threads 14
+  --vcf /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/reference/hgdp_tgp_study_snps_chr10.vcf.gz
+
+Start time: Sun Apr 26 23:15:18 2026
+24576 MiB RAM detected; reserving 12288 MiB for main workspace.
+Using up to 14 threads (change this with --threads).
+--vcf: 272 variants scanned.
+--vcf: 0k variants converted.    --vcf:
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr10-temporary.pgen
++
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr10-temporary.pvar.zst
++
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr10-temporary.psam
+written.
+4151 samples (0 females, 0 males, 4151 ambiguous; 4151 founders) loaded from
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr10-temporary.psam.
+272 variants loaded from
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr10-temporary.pvar.zst.
+Note: No phenotype data present.
+Writing
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr10.fam
+... done.
+Writing
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr10.bim
+... done.
+Writing
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr10.bed
+... 0%done.
+End time: Sun Apr 26 23:15:18 2026
+PLINK v2.0.0-a.6.9 64-bit (29 Jan 2025)            cog-genomics.org/plink/2.0/
+(C) 2005-2025 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr11.log.
+Options in effect:
+  --make-bed
+  --new-id-max-allele-len 10 truncate
+  --out /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr11
+  --output-chr 26
+  --set-all-var-ids @:#
+  --threads 14
+  --vcf /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/reference/hgdp_tgp_study_snps_chr11.vcf.gz
+
+Start time: Sun Apr 26 23:15:18 2026
+24576 MiB RAM detected; reserving 12288 MiB for main workspace.
+Using up to 14 threads (change this with --threads).
+--vcf: 339 variants scanned.
+--vcf: 0k variants converted.    --vcf:
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr11-temporary.pgen
++
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr11-temporary.pvar.zst
++
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr11-temporary.psam
+written.
+4151 samples (0 females, 0 males, 4151 ambiguous; 4151 founders) loaded from
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr11-temporary.psam.
+339 variants loaded from
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr11-temporary.pvar.zst.
+Note: No phenotype data present.
+Writing
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr11.fam
+... done.
+Writing
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr11.bim
+... done.
+Writing
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr11.bed
+... 0%done.
+End time: Sun Apr 26 23:15:18 2026
+PLINK v2.0.0-a.6.9 64-bit (29 Jan 2025)            cog-genomics.org/plink/2.0/
+(C) 2005-2025 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr12.log.
+Options in effect:
+  --make-bed
+  --new-id-max-allele-len 10 truncate
+  --out /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr12
+  --output-chr 26
+  --set-all-var-ids @:#
+  --threads 14
+  --vcf /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/reference/hgdp_tgp_study_snps_chr12.vcf.gz
+
+Start time: Sun Apr 26 23:15:18 2026
+24576 MiB RAM detected; reserving 12288 MiB for main workspace.
+Using up to 14 threads (change this with --threads).
+--vcf: 318 variants scanned.
+--vcf: 0k variants converted.    --vcf:
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr12-temporary.pgen
++
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr12-temporary.pvar.zst
++
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr12-temporary.psam
+written.
+4151 samples (0 females, 0 males, 4151 ambiguous; 4151 founders) loaded from
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr12-temporary.psam.
+318 variants loaded from
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr12-temporary.pvar.zst.
+Note: No phenotype data present.
+Writing
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr12.fam
+... done.
+Writing
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr12.bim
+... done.
+Writing
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr12.bed
+... 0%done.
+End time: Sun Apr 26 23:15:18 2026
+PLINK v2.0.0-a.6.9 64-bit (29 Jan 2025)            cog-genomics.org/plink/2.0/
+(C) 2005-2025 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr13.log.
+Options in effect:
+  --make-bed
+  --new-id-max-allele-len 10 truncate
+  --out /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr13
+  --output-chr 26
+  --set-all-var-ids @:#
+  --threads 14
+  --vcf /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/reference/hgdp_tgp_study_snps_chr13.vcf.gz
+
+Start time: Sun Apr 26 23:15:18 2026
+24576 MiB RAM detected; reserving 12288 MiB for main workspace.
+Using up to 14 threads (change this with --threads).
+--vcf: 134 variants scanned.
+--vcf: 0k variants converted.    --vcf:
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr13-temporary.pgen
++
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr13-temporary.pvar.zst
++
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr13-temporary.psam
+written.
+4151 samples (0 females, 0 males, 4151 ambiguous; 4151 founders) loaded from
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr13-temporary.psam.
+134 variants loaded from
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr13-temporary.pvar.zst.
+Note: No phenotype data present.
+Writing
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr13.fam
+... done.
+Writing
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr13.bim
+... done.
+Writing
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr13.bed
+... 0%done.
+End time: Sun Apr 26 23:15:18 2026
+PLINK v2.0.0-a.6.9 64-bit (29 Jan 2025)            cog-genomics.org/plink/2.0/
+(C) 2005-2025 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr14.log.
+Options in effect:
+  --make-bed
+  --new-id-max-allele-len 10 truncate
+  --out /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr14
+  --output-chr 26
+  --set-all-var-ids @:#
+  --threads 14
+  --vcf /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/reference/hgdp_tgp_study_snps_chr14.vcf.gz
+
+Start time: Sun Apr 26 23:15:18 2026
+24576 MiB RAM detected; reserving 12288 MiB for main workspace.
+Using up to 14 threads (change this with --threads).
+--vcf: 193 variants scanned.
+--vcf: 0k variants converted.    --vcf:
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr14-temporary.pgen
++
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr14-temporary.pvar.zst
++
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr14-temporary.psam
+written.
+4151 samples (0 females, 0 males, 4151 ambiguous; 4151 founders) loaded from
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr14-temporary.psam.
+193 variants loaded from
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr14-temporary.pvar.zst.
+Note: No phenotype data present.
+Writing
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr14.fam
+... done.
+Writing
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr14.bim
+... done.
+Writing
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr14.bed
+... 0%done.
+End time: Sun Apr 26 23:15:18 2026
+PLINK v2.0.0-a.6.9 64-bit (29 Jan 2025)            cog-genomics.org/plink/2.0/
+(C) 2005-2025 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr15.log.
+Options in effect:
+  --make-bed
+  --new-id-max-allele-len 10 truncate
+  --out /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr15
+  --output-chr 26
+  --set-all-var-ids @:#
+  --threads 14
+  --vcf /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/reference/hgdp_tgp_study_snps_chr15.vcf.gz
+
+Start time: Sun Apr 26 23:15:18 2026
+24576 MiB RAM detected; reserving 12288 MiB for main workspace.
+Using up to 14 threads (change this with --threads).
+--vcf: 203 variants scanned.
+--vcf: 0k variants converted.    --vcf:
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr15-temporary.pgen
++
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr15-temporary.pvar.zst
++
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr15-temporary.psam
+written.
+4151 samples (0 females, 0 males, 4151 ambiguous; 4151 founders) loaded from
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr15-temporary.psam.
+203 variants loaded from
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr15-temporary.pvar.zst.
+Note: No phenotype data present.
+Writing
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr15.fam
+... done.
+Writing
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr15.bim
+... done.
+Writing
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr15.bed
+... 0%done.
+End time: Sun Apr 26 23:15:18 2026
+PLINK v2.0.0-a.6.9 64-bit (29 Jan 2025)            cog-genomics.org/plink/2.0/
+(C) 2005-2025 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr16.log.
+Options in effect:
+  --make-bed
+  --new-id-max-allele-len 10 truncate
+  --out /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr16
+  --output-chr 26
+  --set-all-var-ids @:#
+  --threads 14
+  --vcf /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/reference/hgdp_tgp_study_snps_chr16.vcf.gz
+
+Start time: Sun Apr 26 23:15:18 2026
+24576 MiB RAM detected; reserving 12288 MiB for main workspace.
+Using up to 14 threads (change this with --threads).
+--vcf: 220 variants scanned.
+--vcf: 0k variants converted.    --vcf:
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr16-temporary.pgen
++
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr16-temporary.pvar.zst
++
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr16-temporary.psam
+written.
+4151 samples (0 females, 0 males, 4151 ambiguous; 4151 founders) loaded from
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr16-temporary.psam.
+220 variants loaded from
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr16-temporary.pvar.zst.
+Note: No phenotype data present.
+Writing
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr16.fam
+... done.
+Writing
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr16.bim
+... done.
+Writing
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr16.bed
+... 0%done.
+End time: Sun Apr 26 23:15:18 2026
+PLINK v2.0.0-a.6.9 64-bit (29 Jan 2025)            cog-genomics.org/plink/2.0/
+(C) 2005-2025 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr17.log.
+Options in effect:
+  --make-bed
+  --new-id-max-allele-len 10 truncate
+  --out /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr17
+  --output-chr 26
+  --set-all-var-ids @:#
+  --threads 14
+  --vcf /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/reference/hgdp_tgp_study_snps_chr17.vcf.gz
+
+Start time: Sun Apr 26 23:15:18 2026
+24576 MiB RAM detected; reserving 12288 MiB for main workspace.
+Using up to 14 threads (change this with --threads).
+--vcf: 319 variants scanned.
+--vcf: 0k variants converted.    --vcf:
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr17-temporary.pgen
++
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr17-temporary.pvar.zst
++
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr17-temporary.psam
+written.
+4151 samples (0 females, 0 males, 4151 ambiguous; 4151 founders) loaded from
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr17-temporary.psam.
+319 variants loaded from
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr17-temporary.pvar.zst.
+Note: No phenotype data present.
+Writing
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr17.fam
+... done.
+Writing
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr17.bim
+... done.
+Writing
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr17.bed
+... 0%done.
+End time: Sun Apr 26 23:15:18 2026
+PLINK v2.0.0-a.6.9 64-bit (29 Jan 2025)            cog-genomics.org/plink/2.0/
+(C) 2005-2025 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr18.log.
+Options in effect:
+  --make-bed
+  --new-id-max-allele-len 10 truncate
+  --out /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr18
+  --output-chr 26
+  --set-all-var-ids @:#
+  --threads 14
+  --vcf /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/reference/hgdp_tgp_study_snps_chr18.vcf.gz
+
+Start time: Sun Apr 26 23:15:18 2026
+24576 MiB RAM detected; reserving 12288 MiB for main workspace.
+Using up to 14 threads (change this with --threads).
+--vcf: 126 variants scanned.
+--vcf: 0k variants converted.    --vcf:
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr18-temporary.pgen
++
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr18-temporary.pvar.zst
++
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr18-temporary.psam
+written.
+4151 samples (0 females, 0 males, 4151 ambiguous; 4151 founders) loaded from
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr18-temporary.psam.
+126 variants loaded from
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr18-temporary.pvar.zst.
+Note: No phenotype data present.
+Writing
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr18.fam
+... done.
+Writing
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr18.bim
+... done.
+Writing
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr18.bed
+... 0%done.
+End time: Sun Apr 26 23:15:18 2026
+PLINK v2.0.0-a.6.9 64-bit (29 Jan 2025)            cog-genomics.org/plink/2.0/
+(C) 2005-2025 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr19.log.
+Options in effect:
+  --make-bed
+  --new-id-max-allele-len 10 truncate
+  --out /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr19
+  --output-chr 26
+  --set-all-var-ids @:#
+  --threads 14
+  --vcf /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/reference/hgdp_tgp_study_snps_chr19.vcf.gz
+
+Start time: Sun Apr 26 23:15:18 2026
+24576 MiB RAM detected; reserving 12288 MiB for main workspace.
+Using up to 14 threads (change this with --threads).
+--vcf: 328 variants scanned.
+--vcf: 0k variants converted.    --vcf:
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr19-temporary.pgen
++
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr19-temporary.pvar.zst
++
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr19-temporary.psam
+written.
+4151 samples (0 females, 0 males, 4151 ambiguous; 4151 founders) loaded from
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr19-temporary.psam.
+328 variants loaded from
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr19-temporary.pvar.zst.
+Note: No phenotype data present.
+Writing
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr19.fam
+... done.
+Writing
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr19.bim
+... done.
+Writing
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr19.bed
+... 0%done.
+End time: Sun Apr 26 23:15:18 2026
+PLINK v2.0.0-a.6.9 64-bit (29 Jan 2025)            cog-genomics.org/plink/2.0/
+(C) 2005-2025 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr20.log.
+Options in effect:
+  --make-bed
+  --new-id-max-allele-len 10 truncate
+  --out /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr20
+  --output-chr 26
+  --set-all-var-ids @:#
+  --threads 14
+  --vcf /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/reference/hgdp_tgp_study_snps_chr20.vcf.gz
+
+Start time: Sun Apr 26 23:15:18 2026
+24576 MiB RAM detected; reserving 12288 MiB for main workspace.
+Using up to 14 threads (change this with --threads).
+--vcf: 156 variants scanned.
+--vcf: 0k variants converted.    --vcf:
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr20-temporary.pgen
++
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr20-temporary.pvar.zst
++
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr20-temporary.psam
+written.
+4151 samples (0 females, 0 males, 4151 ambiguous; 4151 founders) loaded from
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr20-temporary.psam.
+156 variants loaded from
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr20-temporary.pvar.zst.
+Note: No phenotype data present.
+Writing
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr20.fam
+... done.
+Writing
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr20.bim
+... done.
+Writing
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr20.bed
+... 0%done.
+End time: Sun Apr 26 23:15:18 2026
+PLINK v2.0.0-a.6.9 64-bit (29 Jan 2025)            cog-genomics.org/plink/2.0/
+(C) 2005-2025 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr21.log.
+Options in effect:
+  --make-bed
+  --new-id-max-allele-len 10 truncate
+  --out /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr21
+  --output-chr 26
+  --set-all-var-ids @:#
+  --threads 14
+  --vcf /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/reference/hgdp_tgp_study_snps_chr21.vcf.gz
+
+Start time: Sun Apr 26 23:15:19 2026
+24576 MiB RAM detected; reserving 12288 MiB for main workspace.
+Using up to 14 threads (change this with --threads).
+--vcf: 80 variants scanned.
+--vcf: 0k variants converted.    --vcf:
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr21-temporary.pgen
++
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr21-temporary.pvar.zst
++
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr21-temporary.psam
+written.
+4151 samples (0 females, 0 males, 4151 ambiguous; 4151 founders) loaded from
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr21-temporary.psam.
+80 variants loaded from
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr21-temporary.pvar.zst.
+Note: No phenotype data present.
+Writing
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr21.fam
+... done.
+Writing
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr21.bim
+... done.
+Writing
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr21.bed
+... 0%done.
+End time: Sun Apr 26 23:15:19 2026
+PLINK v2.0.0-a.6.9 64-bit (29 Jan 2025)            cog-genomics.org/plink/2.0/
+(C) 2005-2025 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr22.log.
+Options in effect:
+  --make-bed
+  --new-id-max-allele-len 10 truncate
+  --out /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr22
+  --output-chr 26
+  --set-all-var-ids @:#
+  --threads 14
+  --vcf /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/reference/hgdp_tgp_study_snps_chr22.vcf.gz
+
+Start time: Sun Apr 26 23:15:19 2026
+24576 MiB RAM detected; reserving 12288 MiB for main workspace.
+Using up to 14 threads (change this with --threads).
+--vcf: 124 variants scanned.
+--vcf: 0k variants converted.    --vcf:
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr22-temporary.pgen
++
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr22-temporary.pvar.zst
++
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr22-temporary.psam
+written.
+4151 samples (0 females, 0 males, 4151 ambiguous; 4151 founders) loaded from
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr22-temporary.psam.
+124 variants loaded from
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr22-temporary.pvar.zst.
+Note: No phenotype data present.
+Writing
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr22.fam
+... done.
+Writing
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr22.bim
+... done.
+Writing
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr22.bed
+... 0%done.
+End time: Sun Apr 26 23:15:19 2026
+PLINK v2.0.0-a.6.9 64-bit (29 Jan 2025)            cog-genomics.org/plink/2.0/
+(C) 2005-2025 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_prepared.log.
+Options in effect:
+  --bfile /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_chr1
+  --make-bed
+  --out /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_prepared
+  --pmerge-list /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_merge_rest.txt bfile
+  --threads 14
+
+Start time: Sun Apr 26 23:15:19 2026
+24576 MiB RAM detected; reserving 12288 MiB for main workspace.
+Using up to 14 threads (change this with --threads).
+--pmerge-list: 22 filesets specified (including main fileset).
+--pmerge-list: 4151 samples and 1 phenotype present.
+--pmerge-list: Merged .psam written to
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_prepared.psam
+.
+--pmerge-list: 22 .pvar files scanned.
+Concatenation job detected.
+Concatenating... 0/5808 variants complete.Concatenating... 5808/5808 variants complete.
+Results written to
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_prepared.pgen
++
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_prepared.pvar
+.
+4151 samples (0 females, 0 males, 4151 ambiguous; 4151 founders) loaded from
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_prepared.psam.
+5808 variants loaded from
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_prepared.pvar.
+Note: No phenotype data present.
+Writing
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_prepared.fam
+... done.
+Writing
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_prepared.bim
+... done.
+Writing
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_prepared.bed
+... 0%done.
+End time: Sun Apr 26 23:15:19 2026
+[23:15:19] Reference:     5808 SNPs,     4151 samples
+[23:15:19] STEP 5: Merge study + reference and LD prune
+PLINK v2.0.0-a.6.9 64-bit (29 Jan 2025)            cog-genomics.org/plink/2.0/
+(C) 2005-2025 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/study_qc_chrpos.log.
+Options in effect:
+  --bfile /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/study_qc
+  --make-bed
+  --out /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/study_qc_chrpos
+  --set-all-var-ids @:#
+  --threads 14
+
+Start time: Sun Apr 26 23:15:19 2026
+24576 MiB RAM detected; reserving 12288 MiB for main workspace.
+Using up to 14 threads (change this with --threads).
+10 samples (0 females, 0 males, 10 ambiguous; 10 founders) loaded from
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/study_qc.fam.
+395101 variants loaded from
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/study_qc.bim.
+Note: No phenotype data present.
+Writing
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/study_qc_chrpos.fam
+... done.
+Writing
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/study_qc_chrpos.bim
+... done.
+Writing
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/study_qc_chrpos.bed
+... 0%16%33%49%66%82%99%done.
+End time: Sun Apr 26 23:15:19 2026
+[23:15:19] Common SNPs (study ∩ HGDP+1kGP):     5808
+PLINK v2.0.0-a.6.9 64-bit (29 Jan 2025)            cog-genomics.org/plink/2.0/
+(C) 2005-2025 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/study_common.log.
+Options in effect:
+  --bfile /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/study_qc_chrpos
+  --extract /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/common_snps.txt
+  --make-bed
+  --out /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/study_common
+  --threads 14
+
+Start time: Sun Apr 26 23:15:19 2026
+24576 MiB RAM detected; reserving 12288 MiB for main workspace.
+Using up to 14 threads (change this with --threads).
+10 samples (0 females, 0 males, 10 ambiguous; 10 founders) loaded from
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/study_qc_chrpos.fam.
+395101 variants loaded from
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/study_qc_chrpos.bim.
+Note: No phenotype data present.
+--extract: 5808 variants remaining.
+5808 variants remaining after main filters.
+Writing
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/study_common.fam
+... done.
+Writing
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/study_common.bim
+... done.
+Writing
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/study_common.bed
+... 0%17%29%43%60%76%99%done.
+End time: Sun Apr 26 23:15:19 2026
+PLINK v2.0.0-a.6.9 64-bit (29 Jan 2025)            cog-genomics.org/plink/2.0/
+(C) 2005-2025 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_common.log.
+Options in effect:
+  --bfile /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_prepared
+  --extract /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/common_snps.txt
+  --make-bed
+  --out /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_common
+  --threads 14
+
+Start time: Sun Apr 26 23:15:19 2026
+24576 MiB RAM detected; reserving 12288 MiB for main workspace.
+Using up to 14 threads (change this with --threads).
+4151 samples (0 females, 0 males, 4151 ambiguous; 4151 founders) loaded from
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_prepared.fam.
+5808 variants loaded from
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_prepared.bim.
+Note: No phenotype data present.
+--extract: 5808 variants remaining.
+5808 variants remaining after main filters.
+Writing
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_common.fam
+... done.
+Writing
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_common.bim
+... done.
+Writing
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_common.bed
+... 0%done.
+End time: Sun Apr 26 23:15:19 2026
+PLINK v2.0.0-a.6.9 64-bit (29 Jan 2025)            cog-genomics.org/plink/2.0/
+(C) 2005-2025 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/study_noambi.log.
+Options in effect:
+  --bfile /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/study_common
+  --exclude /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/ambiguous_snps.txt
+  --make-bed
+  --out /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/study_noambi
+  --threads 14
+
+Start time: Sun Apr 26 23:15:19 2026
+24576 MiB RAM detected; reserving 12288 MiB for main workspace.
+Using up to 14 threads (change this with --threads).
+10 samples (0 females, 0 males, 10 ambiguous; 10 founders) loaded from
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/study_common.fam.
+5808 variants loaded from
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/study_common.bim.
+Note: No phenotype data present.
+--exclude: 5508 variants remaining.
+5508 variants remaining after main filters.
+Writing
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/study_noambi.fam
+... done.
+Writing
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/study_noambi.bim
+... done.
+Writing
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/study_noambi.bed
+... 0%done.
+End time: Sun Apr 26 23:15:19 2026
+PLINK v2.0.0-a.6.9 64-bit (29 Jan 2025)            cog-genomics.org/plink/2.0/
+(C) 2005-2025 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_noambi.log.
+Options in effect:
+  --bfile /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_common
+  --exclude /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/ambiguous_snps.txt
+  --make-bed
+  --out /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_noambi
+  --threads 14
+
+Start time: Sun Apr 26 23:15:19 2026
+24576 MiB RAM detected; reserving 12288 MiB for main workspace.
+Using up to 14 threads (change this with --threads).
+4151 samples (0 females, 0 males, 4151 ambiguous; 4151 founders) loaded from
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_common.fam.
+5808 variants loaded from
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_common.bim.
+Note: No phenotype data present.
+--exclude: 5508 variants remaining.
+5508 variants remaining after main filters.
+Writing
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_noambi.fam
+... done.
+Writing
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_noambi.bim
+... done.
+Writing
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_noambi.bed
+... 0%done.
+End time: Sun Apr 26 23:15:19 2026
+PLINK v2.0.0-a.6.9 64-bit (29 Jan 2025)            cog-genomics.org/plink/2.0/
+(C) 2005-2025 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/merged.log.
+Options in effect:
+  --bfile /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/study_noambi
+  --make-bed
+  --out /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/merged
+  --pmerge /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_noambi
+  --threads 14
+
+Start time: Sun Apr 26 23:15:19 2026
+24576 MiB RAM detected; reserving 12288 MiB for main workspace.
+Using up to 14 threads (change this with --threads).
+Error: Failed to open
+/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/hgdp_noambi.psam
+: No such file or directory.
+End time: Sun Apr 26 23:15:19 2026
+[23:15:19] WARNING: Merge failed. Trying to remove mismatched SNPs.
+[23:15:19] ERROR: Merge failed and no missnp file was produced.

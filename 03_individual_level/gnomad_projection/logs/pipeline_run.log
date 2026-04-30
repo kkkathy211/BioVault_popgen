@@ -1,0 +1,27 @@
+[21:50:01] Starting GAI pipeline (gnomAD v3.1.2 HGDP+1kGP reference)
+[21:50:01] Project: /Users/spectremac/Desktop/kathyproject
+[21:50:01] Threads: 14
+[21:50:01] Step 0 already done, skipping setup
+[21:50:01] Step 1 already done, skipping conversion
+[21:50:01] Step 2 already done, skipping QC
+[21:50:01] Step 2b already done, skipping loadings-intersect
+[21:50:01] STEP 3: Download gnomAD v3.1.2 HGDP+1kGP reference
+Wrote 4150 labeled samples to /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/reference/panel_hgdp_tgp.tsv; skipped 1 unlabeled/malformed samples
+[21:50:01] Reference samples:     4150
+[21:50:01] BED-positions source: /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/study_qc_pruned.bim (    5973 SNPs)
+[21:50:02] Pre-downloading .tbi indexes for all 22 chrs (one-time, <1 MB total)
+[21:50:02]   .tbi indexes ready: 22 files
+[21:50:02] Downloading chrs with PARALLEL_CHRS=1
+[21:50:02] chr1:      615 SNPs ->      512 regions -> 18 chunks (30/chunk)
+[21:50:07] WARNING: chr1 regions_aaaa: attempt 1/5 failed; retry in 15s
+Error: BCF read error
+[E::easy_errno] Libcurl reported error 16 (Error in the HTTP2 framing layer)
+[21:50:29] WARNING: chr1 regions_aaaa: attempt 2/5 failed; retry in 30s
+Error: BCF read error
+[E::easy_errno] Libcurl reported error 16 (Error in the HTTP2 framing layer)
+[21:51:05] WARNING: chr1 regions_aaaa: attempt 3/5 failed; retry in 45s
+Error: BCF read error
+[E::easy_errno] Libcurl reported error 16 (Error in the HTTP2 framing layer)
+[21:51:56] WARNING: chr1 regions_aaaa: attempt 4/5 failed; retry in 60s
+Error: BCF read error
+[E::easy_errno] Libcurl reported error 16 (Error in the HTTP2 framing layer)

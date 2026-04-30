@@ -1,0 +1,38 @@
+[22:07:59] Starting GAI pipeline (gnomAD v3.1.2 HGDP+1kGP reference)
+[22:07:59] Project: /Users/spectremac/Desktop/kathyproject
+[22:07:59] Threads: 14
+[22:07:59] Step 0 already done, skipping setup
+[22:07:59] Step 1 already done, skipping conversion
+[22:07:59] Step 2 already done, skipping QC
+[22:07:59] Step 2b already done, skipping loadings-intersect
+[22:07:59] STEP 3: Download gnomAD v3.1.2 HGDP+1kGP reference
+Wrote 4150 labeled samples to /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/reference/panel_hgdp_tgp.tsv; skipped 1 unlabeled/malformed samples
+[22:08:00] Reference samples:     4150
+[22:08:00] BED-positions source: /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/study_qc_pruned.bim (    5973 SNPs)
+[22:08:00] Pre-downloading .tbi indexes for all 22 chrs (one-time, <1 MB total)
+[22:08:00]   .tbi indexes ready: 22 files
+[22:08:00] Downloading chrs with PARALLEL_CHRS=4
+[22:08:00] chr1:      615 SNPs ->      512 regions -> 9 chunks (60/chunk)
+[22:08:00] chr2:      489 SNPs ->      394 regions -> 7 chunks (60/chunk)
+[22:08:00] chr3:      354 SNPs ->      306 regions -> 6 chunks (60/chunk)
+[22:08:00] chr4:      270 SNPs ->      242 regions -> 5 chunks (60/chunk)
+[22:12:20] WARNING: chr2 regions_aaab: attempt 1/5 failed; retry in 15s
+[E::hts_itr_next] Failed to seek to offset 7127534458391073: Illegal seek
+Error: BCF read error
+[22:15:30] WARNING: chr4 regions_aaad: attempt 1/5 failed; retry in 15s
+[E::hts_itr_next] Failed to seek to offset 15253407124592270: Illegal seek
+Error: BCF read error
+[22:18:31] chr4: 5/5 chunks ok (0 failed); concatenating
+Checking the headers and starting positions of 5 files
+[E::idx_find_and_load] Could not retrieve index file for '/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/chunks_chr4/regions_aaaa.vcf.gz'
+Failed to open /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/chunks_chr4/regions_aaaa.vcf.gz: could not load index
+[22:18:36] chr5:      290 SNPs ->      259 regions -> 5 chunks (60/chunk)
+[22:18:51] WARNING: chr1 regions_aaae: attempt 1/5 failed; retry in 15s
+[E::hts_itr_next] Failed to seek to offset 11107963045951131: Illegal seek
+Error: BCF read error
+[22:20:06] chr3: 6/6 chunks ok (0 failed); concatenating
+Checking the headers and starting positions of 6 files
+[E::idx_find_and_load] Could not retrieve index file for '/Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/chunks_chr3/regions_aaaa.vcf.gz'
+Failed to open /Users/spectremac/Desktop/kathyproject/pipeline_gnomad/working/chunks_chr3/regions_aaaa.vcf.gz: could not load index
+[22:20:11] chr6:      337 SNPs ->      303 regions -> 6 chunks (60/chunk)
+./run_pipeline_gnomad.sh: line 586: 31903 Terminated: 15          sleep 5
