@@ -30,7 +30,7 @@ bash run_pipeline.sh
 ## Outputs
 
 ```
-results/
+results/ (**Did not upload here**)
 ├── merged/
 │   ├── genotype_matrix_raw.tsv      # SNP × sample, raw alleles
 │   ├── genotype_matrix_numeric.tsv  # SNP × sample, 0/1/2/NA
