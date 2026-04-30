@@ -1,0 +1,5 @@
+Input SNPs                       : 1,044,254
+MAF filter threshold (max across islands): 0.05
+SNPs passing filter              : 386,208  (37.0%)
+BED file                         : /Users/spectremac/Desktop/out_copy/popgen_indepth/data/caribbean_loci.bed
+Keymap                           : /Users/spectremac/Desktop/out_copy/popgen_indepth/data/caribbean_loci_keymap.tsv
