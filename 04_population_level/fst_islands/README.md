@@ -37,7 +37,7 @@ bash run_pipeline.sh
 ## Outputs
 
 ```
-results/
+results/ (Did not upload here)
 ├── merged/                # Intersected per-locus AF table (all 6 islands)
 ├── fst/                   # Pairwise FST matrix (TSV)
 └── pca/                   # PCA on the AF matrix (eigenvec, eigenval)
