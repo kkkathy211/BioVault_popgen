@@ -5,7 +5,7 @@ Compute Wright's fixation index (FST) for every pair of Caribbean islands, then 
 ## Inputs
 
 ```
-data/
+data/ (Did not upload here!)
 ├── allele_freq_barbados.tsv     # per-locus AF for Barbados
 ├── allele_freq_bahamas.tsv      # Bahamas
 ├── allele_freq_BVI.tsv          # British Virgin Islands
